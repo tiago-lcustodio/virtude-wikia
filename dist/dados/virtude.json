@@ -4,7 +4,7 @@
       "id": "quinder",
       "name": "Quinder",
       "category": "Lugares",
-      "summary": "Reino entre campos verdes e terras mais secas, com cultivo sustentado pelo Taoju e pelo Asmarith.",
+      "summary": "Quinder é uma monarquia independente desde 74 da III Era. Seus principais centros se desenvolveram junto aos rios Taoju e Asmarith. Xeo Taoju abriga o governo de Selyra Naereth, e Samarith é a sede da comunhão dos Sete.",
       "paragraphs": [
         "Quinder se estende entre campos verdes e zonas mais secas. A mudança envolve vegetação e disponibilidade de água; as fontes não descrevem o reino inteiro como desértico. Taoju e Asmarith sustentam hortas, oficinas e propriedades irrigadas. O Taoju passa por Xeo Taoju e o Asmarith por Samarith; ambos seguem para o norte, rumo às desembocaduras de Ayak.",
         "A região conserva monumentos Eldenari. A Guerra dos Diques, entre 1517 e 1546 da II Era, antecedeu o Império de Vaelen Endor. Vaeliss Sareth conquistou Quinder em 2428; o Acordo das Lâmpadas de 2429 preservou o Grande Pombo em Samarith. Na III Era, Nerissa Sareth venceu a Guerra das Duas Cortes, de 61 a 74, consolidando a independência diante de Naerath.",
@@ -21,8 +21,12 @@
         "Moedas e pagamentos": "Lâmpada, prata com chama."
       },
       "related": [
-        "selyra",
+        "evento-ev-022",
+        "evento-ev-031",
+        "evento-ev-032",
+        "evento-ev-037",
         "samarith",
+        "selyra",
         "ayak",
         "naerath",
         "vau-cinzento",
@@ -42,9 +46,6 @@
         "elfos-negros",
         "incorporacao-quinder",
         "provincia-quinder",
-        "evento-ev-031",
-        "evento-ev-032",
-        "evento-ev-037",
         "nerissa-sareth",
         "distancia-recursos-limites",
         "xeo-taoju",
@@ -152,6 +153,16 @@
             "source": "RG230",
             "chapter": 96
           }
+        },
+        {
+          "title": "A formação do reino em quatro episódios",
+          "text": "A Guerra dos Diques explica os primeiros pactos de irrigação. A conquista por Naerath mudou o governo, o Acordo das Lâmpadas definiu as garantias da Torre e a Guerra das Duas Cortes consolidou a monarquia independente.",
+          "readingLinks": [
+            "evento-ev-022",
+            "evento-ev-031",
+            "evento-ev-032",
+            "evento-ev-037"
+          ]
         }
       ],
       "sources": [
@@ -168,7 +179,7 @@
       "id": "aelvar",
       "name": "Reino de Aelvar",
       "category": "Lugares",
-      "summary": "O reino setentrional dos elfos altos, entre cidades antigas e a influência da Ordem.",
+      "summary": "Aelvar é um reino setentrional de elfos altos governado de Emvale. Aston e Thalendriel integram seus caminhos ao sul, e Aethravel abriga a sede da Ordem dos Magos.",
       "paragraphs": [
         "Arriot Ilvar governa desde 622 da III Era. O Acordo dos Pomares de Aston, de 631, reconheceu direitos de cultivo a famílias fora das grandes casas, mantendo obrigações de abastecimento.",
         "Emvale é o centro político. Aston e Thalendriel integram as rotas meridionais. A Cidadela do Norte fica na margem ocidental do Estreito do Norte, no caminho para Naerath.",
@@ -346,7 +357,7 @@
       "id": "naerath",
       "name": "Domínio de Naerath",
       "category": "Lugares",
-      "summary": "Casas de elfos negros e caminhos junto à Floresta Negra.",
+      "summary": "Naerath é um domínio de casas élficas negras cujo centro político fica em Vel-Narim. A Floresta Negra condiciona a circulação pelo território. Ao sul, os caminhos de Quinder guardam a memória da conquista e da posterior independência do reino.",
       "paragraphs": [
         "Vel-Narim é o centro político do domínio, governado pela alta-rainha Zeryssa Sareth e pelo conselho das casas.",
         "Naerath, Quinder e Sularien são entidades políticas distintas. A origem compartilhada de parte de suas populações não elimina fronteiras, interesses ou divergências.",
@@ -474,7 +485,7 @@
       "id": "samarith",
       "name": "Samarith",
       "category": "Lugares",
-      "summary": "Cidade de Quinder, sede da Torre do Grande Pombo e ponto de encontro dos caminhos.",
+      "summary": "Samarith é uma cidade de Quinder às margens do Asmarith e sede da comunhão dos Sete desde o Concílio de 1398 da II Era. Sua Torre, seus santuários e suas hospedarias ligam a vida religiosa à circulação de peregrinos e mercadorias.",
       "paragraphs": [
         "Samarith ocupa o corredor do Asmarith, em Quinder. Cais, hospedarias e mercados acompanham barcas e peregrinos. A água sustenta trechos cultivados num reino que passa de campos verdes a áreas mais secas. A Torre Sagrada é sua grande referência religiosa; moradores humanos e élficos negros compartilham trabalho, vizinhança e cerimônias.",
         "Em 1398 da II Era, o Concílio das Sete Portas estabeleceu a comunhão dos Sete. Após a conquista, o Acordo das Lâmpadas de 2429 preservou o Grande Pombo, arquivos, santuários e peregrinação. A Torre conservou competências religiosas e privilégios dentro da soberania de Quinder, reunindo interesses de culto, comércio e reconhecimento político.",
@@ -488,13 +499,16 @@
         "Grande Pombo": "Calven IX"
       },
       "related": [
+        "evento-ev-021",
+        "evento-ev-032",
+        "torre-sagrada",
+        "grande-pombo",
         "quinder",
         "pombo-torto",
         "demer",
         "calven",
         "crise-de-788",
         "tipo",
-        "torre-sagrada",
         "camara-limiar",
         "casa-nomes",
         "oren-namar",
@@ -503,7 +517,6 @@
         "elen-sar",
         "recuperacao-samarith",
         "comissoes-samarith",
-        "grande-pombo",
         "religiao-virtude"
       ],
       "image": "v07-samarith",
@@ -556,6 +569,15 @@
             "chapter": 93,
             "record": "RC-REL04"
           }
+        },
+        {
+          "title": "A cidade durante as mudanças de governo",
+          "text": "A conquista de Naerath pôs a permanência da Torre em questão. O Acordo das Lâmpadas garantiu a continuidade dos santuários, e a independência de Quinder preservou suas cláusulas.",
+          "readingLinks": [
+            "evento-ev-031",
+            "evento-ev-032",
+            "evento-ev-037"
+          ]
         }
       ],
       "sources": [
@@ -576,7 +598,7 @@
       "id": "ayak",
       "name": "Cidade-Estado de Ayak",
       "category": "Lugares",
-      "summary": "Governo dos cais nas desembocaduras ao norte de Quinder.",
+      "summary": "Ayak é uma cidade-estado situada nas desembocaduras ao norte de Quinder. Seus cais ligam as rotas dos rios Taoju e Asmarith à circulação setentrional.",
       "paragraphs": [
         "Ayak articula os cursos inferiores do Asmarith e do Taoju com o Estreito do Norte. Várzeas, braços e canais mudam com cheias, maré e assoreamento. Sondagens, dragagem e embarcações adequadas a fundos variáveis sustentam a circulação. As Casas de Pilotagem das Duas Fozes conservam o conhecimento para transitar entre rio e mar.",
         "A Questão dos Fundos, de 776 a 782, opôs casas de depósito e usuários sobre custos da dragagem. Em 780, Tessara Noll e outros trabalhadores transformaram medições locais num registro utilizável pelo Conselho. Passou-se a exigir cópias dos levantamentos num arquivo comum, embora o aprendizado da pilotagem continuasse desigual.",
@@ -667,7 +689,7 @@
       "id": "valerith",
       "name": "Valerith",
       "category": "Lugares",
-      "summary": "Reino central que conserva em Vaelen Endor uma herança imperial.",
+      "summary": "Valerith é o reino sucessor que conservou Vaelen Endor, antiga capital imperial. Seu corredor meridional desce a Nerevala, no Mar das Espadas. A leste, o caminho por Valada liga a capital à Rácia e aos acessos da Cávia e de Heria.",
       "paragraphs": [
         "Vaelen Endor é uma referência política e histórica central para compreender o antigo império e a fragmentação posterior.",
         "Nerevala pertence a Valerith, mas é disputada por Sokeria e Racia. As rivalidades de fronteira cruzam comércio, caminhos e interesses locais.",
@@ -695,7 +717,12 @@
         "alena-veldan",
         "custodia-central",
         "provincia-valerith",
-        "evento-ev-033"
+        "evento-ev-033",
+        "vaelen-endor",
+        "nerevala",
+        "valada",
+        "mar-espadas",
+        "concordata-de-vaelen"
       ],
       "image": "v05-local-valerith",
       "spoiler": null,
@@ -737,25 +764,40 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Vaelen Endor é uma referência política e histórica central para compreender o antigo império e a fragmentação posterior."
+          "title": "A antiga capital e o território do reino",
+          "text": "Vaelen Endor fica no interior. A corte, os arquivos e os mercados mantêm a cidade no centro da política de Valerith. Para chegar ao litoral pelo sul, pessoas e cargas seguem a Nerevala. A leste, Valada abre outro percurso, pelo interior da Rácia.",
+          "readingLinks": [
+            "vaelen-endor",
+            "nerevala",
+            "valada"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "Nerevala pertence a Valerith, mas é disputada por Sokeria e Racia. As rivalidades de fronteira cruzam comércio, caminhos e interesses locais."
+          "title": "Por que Nerevala importa",
+          "text": "Nerevala permite que o comércio de Valerith alcance o Mar das Espadas e receba mercadorias por cabotagem. Sokeria e Rácia reivindicam a cidade e participam de seu abastecimento. A trégua de 787 estabeleceu procedimentos provisórios, e Valerith conserva a soberania no início de 788.",
+          "readingLinks": [
+            "nerevala",
+            "sokeria",
+            "racia",
+            "mar-espadas"
+          ]
         },
         {
           "title": "A corte no início de 788",
           "text": "Maressa II Veldan utiliza o prestígio de Vaelen Endor nas negociações comerciais, com a chanceler Lethia Arven. Comunidades diversas conservam histórias antigas de residência. Memórias de famílias expulsas de Quinder convivem com vizinhança, comércio e pedidos de reparação. Nerevala permanece sob soberania de Valerith após a trégua de 787."
         },
         {
-          "title": "Da administração imperial ao reino",
-          "text": "Arquivos, depósitos e garantias da capital. Alena Veldan reconhecida em 2431; a casa governa com sucessivas reconfirmações. Maressa II Veldan; genealogia intermediária incompleta.",
+          "title": "Da capital imperial ao reino sucessor",
+          "text": "Em 2431 da II Era, o reconhecimento de Alena Veldan apoiou-se em arquivos, depósitos e compromissos de pagamento herdados da capital imperial. A casa Veldan conservou o governo por sucessivas reconfirmações. Em 788, Maressa II governa em Vaelen Endor.",
           "sourceRef": {
             "source": "RG217",
             "chapter": 66,
             "record": "RC-PV03"
-          }
+          },
+          "readingLinks": [
+            "concordata-de-vaelen",
+            "vaelen-endor"
+          ]
         },
         {
           "title": "A região durante o governo imperial",
@@ -786,7 +828,7 @@
       "id": "racia",
       "name": "Reino da Rácia",
       "category": "Lugares",
-      "summary": "Oficinas, arquivos e circulação de técnicas nos Reinos Centrais.",
+      "summary": "A Rácia é um reino dos Reinos Centrais ligado pelo corredor de Valada, Ihfarilse e Atlante. Valada articula as estradas do interior, Ihfarilse reúne oficinas e bibliotecas, e Atlante dá ao vale acesso ao Mar das Espadas.",
       "paragraphs": [
         "Ihfarilse abriga bibliotecas e oficinas importantes para as investigações dos companheiros. Valada e Atlante também integram as viagens pela região.",
         "O curso de água que passa por Valada segue por Ihfarilse e deságua em Atlante. As montanhas entre Valada e Cávia condicionam os passos e os trajetos de viagem.",
@@ -817,7 +859,10 @@
         "nerevala",
         "valada",
         "ihfarilse",
-        "atlante"
+        "atlante",
+        "juu-daixo",
+        "trogu",
+        "concordata-de-vaelen"
       ],
       "image": "v05-local-racia",
       "spoiler": null,
@@ -870,25 +915,40 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Ihfarilse abriga bibliotecas e oficinas importantes para as investigações dos companheiros. Valada e Atlante também integram as viagens pela região."
+          "title": "Três cidades, três funções",
+          "text": "Valada reúne serviços de estrada e prepara a subida à Cávia. Ihfarilse concentra oficinas, estudo e parte do trabalho do Circuito do Vento Arcano. Em Atlante, as mercadorias do interior podem ser armazenadas e embarcadas para outros portos.",
+          "readingLinks": [
+            "valada",
+            "ihfarilse",
+            "atlante"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "O curso de água que passa por Valada segue por Ihfarilse e deságua em Atlante. As montanhas entre Valada e Cávia condicionam os passos e os trajetos de viagem."
+          "title": "O corredor fluvial e a estrada da serra",
+          "text": "O rio passa por Valada e Ihfarilse antes de desaguar em Atlante. Estradas e trechos navegáveis atendem a necessidades distintas de transporte. Em Valada, o Caminho Alto se separa desse eixo e sobe a Juu Daixo, de onde se alcança Trogu.",
+          "readingLinks": [
+            "atlante",
+            "caminho-alto",
+            "juu-daixo",
+            "trogu"
+          ]
         },
         {
           "title": "Formação dos circuitos urbanos",
           "text": "As oficinas de Ihfarilse organizaram em 412 o precursor das corridas, com carta real permanente em 438. Circulação de conhecimento e trabalho técnico convivem com custos, patrocínios e corporações. A Mata de Miraveth e o corredor de Valada ligam recursos locais às redes de metal da Cávia e à saída costeira de Atlante."
         },
         {
-          "title": "Da administração imperial ao reino",
-          "text": "Conselhos de cidade, oficinas e contratos. Reconhecimento sucessor em 2431; ratificação urbana da herança organizada em 82 da III Era. A coroa depende de prerrogativas urbanas; não se inventa casa nominal atual.",
+          "title": "Como as cidades participam do governo",
+          "text": "A coroa sucessora foi reconhecida em 2431 da II Era. O Pacto de Ihfarilse, de 82 da III Era, organizou a apresentação de herdeiros e a ratificação urbana. As prerrogativas de cidades e oficinas ajudam a explicar por que o reconhecimento da coroa depende de acordos locais.",
           "sourceRef": {
             "source": "RG217",
             "chapter": 66,
             "record": "RC-PV03"
-          }
+          },
+          "readingLinks": [
+            "ihfarilse",
+            "concordata-de-vaelen"
+          ]
         },
         {
           "title": "A região durante o governo imperial",
@@ -944,7 +1004,7 @@
       "id": "sokeria",
       "name": "Sokeria",
       "category": "Lugares",
-      "summary": "Reino central ligado às margens do Mar das Espadas.",
+      "summary": "Sokeria é um reino da costa do Mar das Espadas governado de Isnymelha por Osvan Merec. Os caminhos da Floresta de Vaelora sustentam parte de seu comércio. A leste, seus interesses de abastecimento e circulação alcançam Nerevala.",
       "paragraphs": [
         "Isnymelha e os caminhos junto à Floresta de Vaelora fazem parte da vida comercial da região. A disputa por Nerevala aproxima interesses de Sokeria, Racia e Valerith.",
         "Redes religiosas e abastecimento cruzam fronteiras, enquanto proprietários e mercadores disputam o custo de sustentar quem perdeu casa ou trabalho.",
@@ -970,7 +1030,9 @@
         "provincia-sokeria",
         "evento-ev-033",
         "religiao-virtude",
-        "nancy"
+        "nancy",
+        "isnymelha",
+        "nerevala"
       ],
       "image": "v05-local-sokeria",
       "spoiler": null,
@@ -1007,8 +1069,13 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Isnymelha e os caminhos junto à Floresta de Vaelora fazem parte da vida comercial da região. A disputa por Nerevala aproxima interesses de Sokeria, Racia e Valerith."
+          "title": "Da floresta à costa",
+          "text": "Isnymelha concentra a administração e parte do comércio marítimo. Os caminhos junto à Floresta de Vaelora ligam produtores, pousos e fornecedores à costa. Em Nerevala, esse abastecimento cruza interesses da Rácia e de Valerith.",
+          "readingLinks": [
+            "isnymelha",
+            "telvim",
+            "nerevala"
+          ]
         },
         {
           "title": "Relações e caminhos",
@@ -1073,7 +1140,7 @@
       "id": "dorgamar",
       "name": "Império de Dorgamar",
       "category": "Lugares",
-      "summary": "O império anão, suas cidades e a infraestrutura que atravessa a pedra.",
+      "summary": "Dorgamar é um império anão que tem em Dorgal seu centro político. A Espinha de Orvath condiciona suas passagens e obras de água, enquanto Morvek liga oficinas e depósitos ao comércio marítimo.",
       "paragraphs": [
         "Governado por Brunna IV Dorgenn, Dorgamar possui assembleias de cidades, casas e canais. Dorgal é seu centro político; Morvek é também uma cidade de importância para as rotas marítimas.",
         "Na Segunda Era, os anões construíram canais para a comunicação comercial entre o Império de Vaelen Endor e povos do leste. A queda imperial reduziu esse comércio e provocou graves problemas nas regiões dependentes das rotas.",
@@ -1183,7 +1250,7 @@
       "id": "thaelorien",
       "name": "Reino de Thaelorien",
       "category": "Lugares",
-      "summary": "O reino florestal ao sul dos Reinos Centrais.",
+      "summary": "Thaelorien é um reino ao sul do Mar das Espadas, com capital em Nael-Sul. A floresta e a Cordilheira de Vradrath orientam os caminhos do interior. Pactos locais regulam parte do acesso aos bosques.",
       "paragraphs": [
         "A rainha Ariessa Folha-Clara governa a partir de Nael-Sul em uma ordem de pactos com bosques e cidades. Uma cor no mapa não significa administração uniforme de cada floresta.",
         "Thaelorien não integrou o Império de Vaelen Endor. Relações comerciais e diplomáticas com os vizinhos não devem ser confundidas com submissão política.",
@@ -1325,7 +1392,7 @@
       "id": "nogard",
       "name": "Império de Nogard",
       "category": "Lugares",
-      "summary": "Terra dos meio-dragões, cujo império insular controla passagens orientais do Mar das Espadas.",
+      "summary": "Nogard é um império insular de meio-dragões, com centro político na Corte do Estreito. Suas frotas e casas disputam direitos de passagem nas águas orientais do Mar das Espadas.",
       "paragraphs": [
         "A Corte do Estreito é o centro do império governado por Azhvar VIII Khor-Azhar. A posição de Nogard favorece a fiscalização das cargas e a negociação de passagens.",
         "Interesses de negociantes, funcionários e grupos privados não equivalem sempre à política de todo o império. Cauções e exigências portuárias podem atrasar viagens sem que exista uma conspiração por trás de cada obstáculo.",
@@ -1450,7 +1517,7 @@
       "id": "mar-espadas",
       "name": "Mar das Espadas",
       "category": "Lugares",
-      "summary": "Águas que ligam reinos, cidades portuárias e memórias do comércio imperial.",
+      "summary": "O Mar das Espadas liga as costas dos Reinos Centrais e de Thaelorien a portos como Isnymelha, Morvek e Atlante. Nerevala e Atlante recebem cargas de bacias distintas e se comunicam por cabotagem.",
       "paragraphs": [
         "O mar conecta as margens dos Reinos Centrais, Dorgamar e o norte de Thaelorien. A passagem junto a Nogard dá acesso às águas orientais.",
         "As rotas dependem de tripulações, manutenção, crédito e condições locais. Piratas e autoridades podem disputar os mesmos lucros usando justificativas diferentes.",
@@ -1470,7 +1537,10 @@
         "nerevala",
         "atlante",
         "ihfarilse",
-        "isnymelha"
+        "isnymelha",
+        "morvek",
+        "trogu",
+        "mar-lombonia"
       ],
       "image": "v05-local-mar-espadas",
       "spoiler": null,
@@ -1488,16 +1558,29 @@
       "hasLocation": false,
       "sections": [
         {
-          "title": "Os portos na época imperial",
-          "text": "Isnymelha reunia abastecimento, serviço militar e comércio. Trogu articulava circulação costeira e acesso a materiais, enquanto Morvek conectava o mar aos depósitos das vias anãs."
+          "title": "Portos e abastecimento na época imperial",
+          "text": "Isnymelha reunia comércio, mantimentos e serviço militar. Morvek ligava a costa aos depósitos e oficinas de Dorgamar. Trogu participava dos circuitos marítimos a partir do Mar de Lombonia. Entre os dois mares, a navegação dependia dos acessos orientais na região de Nogard.",
+          "readingLinks": [
+            "isnymelha",
+            "morvek",
+            "trogu",
+            "nogard",
+            "mar-lombonia"
+          ]
         },
         {
-          "title": "Cabotagem entre Nerevala e Atlante",
-          "text": "Nerevala recebe o rio do corredor meridional de Valerith. Atlante recebe o eixo de Ihfarilse, na Rácia. A navegação costeira pelo Mar das Espadas conecta as duas saídas. Isnymelha fica a oeste de Nerevala.",
+          "title": "Duas fozes ligadas pela costa",
+          "text": "O corredor meridional de Valerith desce a Nerevala. O vale de Ihfarilse chega ao mar em Atlante. Uma carga que vai de uma foz à outra segue por cabotagem e pode exigir transbordo. Isnymelha fica a oeste de Nerevala.",
           "sourceRef": {
             "source": "RG228",
             "chapter": 94
-          }
+          },
+          "readingLinks": [
+            "nerevala",
+            "atlante",
+            "ihfarilse",
+            "isnymelha"
+          ]
         }
       ],
       "tables": []
@@ -1506,7 +1589,7 @@
       "id": "lombonia",
       "name": "Lombonia Ghostland",
       "category": "Lugares",
-      "summary": "Ilhas cercadas por relatos inquietantes e investigações incompletas.",
+      "summary": "Lombonia Ghostland é um arquipélago do Mar de Lombonia conhecido por advertências de pilotos, relatos de névoa e expedições de resultado incerto. A aproximação das ilhas envolve riscos próprios. A viagem mencionada na correspondência de Narel liga essa incerteza à investigação de Nyssara Veyl.",
       "paragraphs": [
         "Lombonia aparece em relatos de viajantes e em rumores sobre fenômenos que misturam percepção, memória e perigo. Diferentes fontes não oferecem a mesma interpretação.",
         "Uma descrição escrita no final da Segunda Era não possui, por isso, conhecimento dos acontecimentos de 788. A data e a experiência de cada autor importam ao comparar versões."
@@ -1519,7 +1602,10 @@
         "marevim",
         "thul",
         "magia",
-        "mar-lombonia"
+        "mar-lombonia",
+        "viagens-condicoes",
+        "narel",
+        "nyssara"
       ],
       "image": "v05-local-lombonia",
       "spoiler": "Marevim concentra em Lombonia o exército e os núcleos de comando. A névoa associada às operações não é apenas um fenômeno climático: seus efeitos dependem dos dispositivos e ligações da rede.",
@@ -1541,6 +1627,22 @@
         {
           "title": "O limite das visitas",
           "text": "Nerion Fales exclui o desembarque em Lombonia Ghostland de seus passeios. Pilotos e autoridades mantêm advertências sobre as névoas e a aproximação das ilhas no Mar de Lombonia."
+        },
+        {
+          "title": "O que os pilotos podem dizer",
+          "text": "As advertências se referem à aproximação das ilhas e às névoas. Nerion Fales exclui o desembarque de seus passeios. Quem lê os relatos precisa distinguir uma orientação de navegação, um testemunho de expedição e a interpretação de um fenômeno associado à memória ou à percepção.",
+          "readingLinks": [
+            "mar-lombonia",
+            "viagens-condicoes"
+          ]
+        },
+        {
+          "title": "A expedição de Narel",
+          "text": "A correspondência de Narel menciona uma expedição à região. Seu desaparecimento motiva a busca de Nyssara. O relato pessoal explica por que ela investiga Lombonia e deixa em aberto o que aconteceu durante a viagem.",
+          "readingLinks": [
+            "narel",
+            "nyssara"
+          ]
         }
       ],
       "tables": []
@@ -1549,7 +1651,7 @@
       "id": "liana",
       "name": "Liana Meywood",
       "category": "Personagens",
-      "summary": "Ranger elfa das florestas, observadora e pouco disposta a transformar afeto em permanência.",
+      "summary": "Liana Meywood é uma batedora elfa das florestas de Thaelorien. Em 778 da III Era, Rul Aven a contratou para alcançar instalações antigas. Anos depois, a investigação das Guias Partidas levou seu trabalho de campo até a audiência em Valada, onde conheceu o conjunto dos futuros companheiros.",
       "paragraphs": [
         "Liana tem seu vínculo de origem nas florestas de Thaelorien. Sua experiência foi construída na observação e no trabalho de estrada: reconhecer um rastro, comparar o estado de uma trilha e perceber quando o silêncio muda exigem atenção continuada. Não há cidade natal nem data de nascimento estabelecidas. O pertencimento ao povo élfico da floresta não substitui o aprendizado de cada terreno, de suas estações e de quem o utiliza.",
         "A pele acobreada, o cabelo castanho irregular à altura dos ombros e a cicatriz fina no lábio inferior distinguem sua aparência. A pequena mecha branca, consequência de uma doença antiga, fica na têmpora esquerda. Usa túnica de viagem verde apagado, camisa clara, calças castanhas e botas reparadas; leva arco de madeira, aljava e faca de campo. A ligação com Thaelira se manifesta na atenção ao mundo vivo, sem lhe conferir a condição de Arauto.",
@@ -1575,8 +1677,9 @@
       "related": [
         "thaelorien",
         "rul",
-        "demer",
         "guias-partidas",
+        "valada",
+        "demer",
         "le-rink",
         "nyssara",
         "tessa-varn",
@@ -1617,6 +1720,16 @@
         {
           "title": "Vínculo com Rul",
           "text": "A aproximação amorosa com Rul Aven começou pouco antes da abertura de As Quatro Hostes. A escolta até Aethravel era um trabalho acordado e remunerado. Liana e Demer mantêm amizade, colaboração e cuidado mútuo."
+        },
+        {
+          "title": "Da trilha à audiência",
+          "text": "Reconhecer uma passagem e decidir quem pode atravessá-la são tarefas diferentes. Na audiência de 787, o trabalho de campo de Liana entrou em contato com a leitura de vestígios, a negociação de transporte e a guarda de provas que ocupavam os outros participantes.",
+          "readingLinks": [
+            "thaelorien",
+            "rul",
+            "guias-partidas",
+            "valada"
+          ]
         }
       ],
       "sources": [
@@ -1650,7 +1763,7 @@
       "id": "demer",
       "name": "Demer Vault",
       "category": "Personagens",
-      "summary": "Paladino de Ardanus, dividido entre o dever institucional e as pessoas diante dele.",
+      "summary": "Demer Vault é um paladino de Ardanus. O serviço religioso lhe deu acesso a estudo e a uma posição reconhecida. No caso das Guias Partidas, a maneira como tratou feridos e detidos pôs seus juramentos à prova.",
       "paragraphs": [
         "Demer foi criado perto de uma propriedade rural onde a proteção dos cavaleiros coexistia com cobranças que sua família não podia contestar. O serviço religioso de Ardanus lhe ofereceu estudo, alimento e uma posição reconhecida. Essa formação ajuda a compreender sua disciplina e a gratidão que dificultou questionar seus superiores. As fontes não fixam sua data de nascimento nem o nome de sua localidade natal; Samarith é uma base de atuação, não uma naturalidade demonstrada.",
         "Tem pele morena, cabelos pretos que começam a rarear nas têmporas, barba curta e uma queimadura larga no antebraço. O rosto retangular e o nariz de ponte larga acompanham uma presença forte e contida. Veste camisa clara, malha e placas mantidas, com manto vinho gasto. Espada e escudo pertencem ao serviço; o atendimento a feridos pode exigir deixá-los de lado. A manutenção cuidadosa do equipamento é também uma maneira de adiar conversas difíceis.",
@@ -1671,14 +1784,15 @@
         "Armas e instrumentos": "Espada, escudo e equipamento de assistência"
       },
       "related": [
+        "ardanus",
+        "guias-partidas",
+        "kharug",
         "liana",
         "calven",
         "samarith",
-        "kharug",
         "oren-val",
         "seli-ar",
         "selk-arven",
-        "ardanus",
         "arautos",
         "religiao-virtude"
       ],
@@ -1716,6 +1830,15 @@
             "chapter": 93,
             "record": "RC-REL01"
           }
+        },
+        {
+          "title": "O juramento diante de um detido",
+          "text": "Quando o falso entregador Selk Arven foi detido, Demer recusou o interrogatório pela dor e exigiu atendimento antes da oitiva. A decisão ligou o dever paladino à possibilidade de ouvir um testemunho e à responsabilidade pelo tratamento de quem o presta.",
+          "readingLinks": [
+            "ardanus",
+            "guias-partidas",
+            "kharug"
+          ]
         }
       ],
       "sources": [
@@ -1747,7 +1870,7 @@
       "id": "le-rink",
       "name": "Le Rink",
       "category": "Personagens",
-      "summary": "Príncipe de Aelvar, diplomata e mago de proteção.",
+      "summary": "Le Rink é um príncipe de Aelvar, filho de Arriot Ilvar e residente em Aston. Formado em diplomacia e magia de proteção, foi enviado a Valerith para investigar materiais com selos de Aelvar. A investigação o levou à Audiência das Guias, em 787 da III Era.",
       "paragraphs": [
         "Filho de Arriot Ilvar, rei de Aelvar desde 622 da III Era, Le Rink reside em Aston. A educação de corte o formou em diplomacia, esgrima e magia de proteção. O pai é afetuoso em particular e reservado nas demonstrações públicas; o filho aprendeu a buscar aprovação realizando tarefas difíceis. O começo do reinado de Arriot não é uma data de nascimento para Le Rink. Seu ano de nascimento e sua idade exata continuam sem definição nas fontes.",
         "É um elfo alto de pele clara, cabelo loiro preso sem adornos, olhos cinzentos, rosto comprido e queixo fino. Tem uma mancha de nascença no pescoço, muitas vezes coberta pelo traje cerimonial. Usa casaco azul-escuro de acabamento fino, camisa clara e luvas, com espada de esgrima e instrumento de proteção. A roupa de estrada conserva o cuidado de sua formação sem precisar repetir a pompa de uma audiência.",
@@ -1771,6 +1894,9 @@
       "related": [
         "arriot",
         "aelvar",
+        "aston",
+        "guias-partidas",
+        "valada",
         "ordem",
         "liana",
         "elthara-sorn",
@@ -1799,6 +1925,17 @@
         {
           "title": "Magia e posição política",
           "text": "As barreiras dependem de materiais preparados e concentração; ferimentos e interferências podem comprometer sua precisão. A condição de príncipe não lhe dá comando automático sobre a Ordem dos Magos nem sobre cada aliado de Aelvar. Trabalhar com Sera e Nyssara exige reconhecer conhecimentos adquiridos fora de sua formação. Com Liana e Kharug, precisa negociar decisões cujos custos não serão pagos apenas por ele."
+        },
+        {
+          "title": "Selos, testemunhos e acesso às provas",
+          "text": "Ao reconhecer uma autenticação impossível, Le Rink apoiou a conservação dos testemunhos e procurou limitar a circulação de cópias. Sua decisão mostra como o treino de corte orientava tanto sua maneira de proteger uma prova quanto sua preocupação com quem poderia consultá-la.",
+          "readingLinks": [
+            "arriot",
+            "aelvar",
+            "aston",
+            "guias-partidas",
+            "valada"
+          ]
         }
       ],
       "sources": [
@@ -1829,7 +1966,7 @@
       "id": "nyssara",
       "name": "Nyssara Veyl",
       "category": "Personagens",
-      "summary": "Estudiosa elfa negra, atenta ao que inscrições e versões oficiais deixam de dizer.",
+      "summary": "Nyssara Veyl é uma pesquisadora élfica negra a serviço da corte de Quinder. Especialista em inscrições Eldenari, participou das Guias Partidas e trabalhou em levantamentos com consequências para famílias que pediam restituição de terras.",
       "paragraphs": [
         "Nyssara é uma elfa negra especializada em inscrições Eldenari e pesquisa de campo, a serviço da corte de Quinder. Seu vínculo profissional não estabelece, por si só, a cidade em que nasceu. Tampouco há data de nascimento confirmada. A lealdade à corte convive com a crítica às perseguições cometidas pelo reino, mas também com a participação em levantamentos que produziram consequências para pessoas excluídas do poder.",
         "Tem pele escura de reflexo frio, tranças brancas finas e olhos castanhos que frequentemente parecem negros. As maçãs salientes e o nariz suavemente convexo individualizam o rosto. Perdeu parte do dedo mínimo direito num desabamento e adaptou a maneira de segurar os instrumentos. Usa casaco vinho-escuro, faixa e bolsa de cadernos; leva instrumentos de leitura, luz de trabalho e faca de viagem. A apresentação cuidadosa procura garantir o tempo de fala que uma corte pode negar.",
@@ -1852,6 +1989,9 @@
       },
       "related": [
         "quinder",
+        "guias-partidas",
+        "demer",
+        "lombonia",
         "magia",
         "liana",
         "narel",
@@ -1882,6 +2022,16 @@
         {
           "title": "Ironia e convivência",
           "text": "Reservada e irônica, Nyssara testa a disposição do interlocutor antes de expor o que deseja. O cuidado com a roupa e com as palavras integra essa mesma estratégia. Nas Guias Partidas, ofereceu a leitura disponível das galerias, sem demonstrar uma passagem segura entre planos. Sua magia de sombras serve à exploração, ao disfarce e à proteção; a convivência com Le Rink e Sera exige comparar recursos diferentes, em vez de pressupor uma hierarquia única de conhecimentos."
+        },
+        {
+          "title": "A pesquisa e seus efeitos fora do arquivo",
+          "text": "Uma inscrição ajuda a interpretar uma galeria, e um levantamento pode influenciar uma petição. Nos casos de restituição, a seleção do que parecia relevante teve consequências para famílias humanas. A discussão com Demer ligou essas escolhas aos efeitos políticos do trabalho de Nyssara.",
+          "readingLinks": [
+            "quinder",
+            "guias-partidas",
+            "demer",
+            "lombonia"
+          ]
         }
       ],
       "sources": [
@@ -1912,7 +2062,7 @@
       "id": "kharug",
       "name": "Kharug Venn",
       "category": "Personagens",
-      "summary": "Orc negociador, comerciante e combatente que conhece o peso de um acordo.",
+      "summary": "Kharug Venn é um negociador e combatente orc ligado às redes de caravana do leste. Sua experiência com contratos e transporte ajudou nas investigações das Guias Partidas. A indenização parcial pela perda das terras da família o colocou em desacordo com Druvak.",
       "paragraphs": [
         "Kharug tem vínculos com as tribos do leste e com redes de transporte. O trabalho o ensinou a ler contratos, avaliar animais de carga e negociar entre línguas. Não estão fixados o local exato nem a data de seu nascimento. A ligação a comunidades orcs não faz dele um representante de todas as tribos: seus compromissos dependem de pessoas, trajetos e acordos concretos.",
         "Tem pele verde-escura, maxilar largo, nariz achatado e uma presa inferior curta quebrada perto da base. Mantém o cabelo raspado e traz marcas de corda nas mãos. O casaco de viagem reúne reparos de tecidos diferentes, acompanhado de botas firmes, bolsas de contratos e pequenas placas com sinais de caravanas. A lança curta e a faca utilitária servem a tarefas distintas; saber combater não substitui saber conduzir uma carga ou reconhecer um animal exausto.",
@@ -1933,9 +2083,10 @@
         "Armas e instrumentos": "Lança curta, faca utilitária e equipamento de animais"
       },
       "related": [
-        "orcs",
         "guias-partidas",
+        "confederacao-orc",
         "demer",
+        "orcs",
         "tessa-varn",
         "druvak",
         "sirr-vek"
@@ -1965,6 +2116,15 @@
         {
           "title": "As Guias Partidas e os companheiros",
           "text": "As buscas das Guias Partidas aproximaram Kharug de transportadores, trabalhadores retidos e sobreviventes cujos nomes poderiam desaparecer dos relatos oficiais. Ao cooperar com Liana, considera o que uma partida urgente deixa para trás. Com Demer, precisa distinguir a disposição pessoal de ajudar das práticas das instituições humanas; diante de Le Rink, exige garantias que resistam à mudança de vontade de um príncipe. Comércio, negociação e combate permanecem partes da mesma trajetória."
+        },
+        {
+          "title": "O que uma indenização consegue reparar",
+          "text": "Kharug obteve uma compensação parcial depois que um tribunal humano sancionou a perda das terras. Druvak viu no acordo uma renúncia à memória da família. A divergência ajuda a entender por que Kharug insiste em garantias concretas quando negocia com aliados e autoridades.",
+          "readingLinks": [
+            "guias-partidas",
+            "confederacao-orc",
+            "demer"
+          ]
         }
       ],
       "sources": [
@@ -1993,7 +2153,7 @@
       "id": "sera",
       "name": "Sera Vennor",
       "category": "Personagens",
-      "summary": "Inventora anã, ambiciosa e direta, que conhece a distância entre o desenho e a peça.",
+      "summary": "Sera Vennor é uma inventora anã formada no trabalho de manutenção, com vínculos profissionais nas oficinas da Rácia. Nas Guias Partidas, reconheceu ferramentas desviadas e participou da intervenção nas galerias. Sua entrada na missão conjunta ocorreu depois, em Ihfarilse.",
       "paragraphs": [
         "Sera veio de uma família de trabalhadores de manutenção e conquistou espaço nas equipes pelo talento e pela disposição para aceitar serviços mal pagos. Não há data de nascimento nem cidade natal estabelecidas. Seus vínculos profissionais com a Rácia e com fornecedores do Circuito do Vento Arcano não devem ser convertidos automaticamente em naturalidade. A ambição de possuir uma oficina nasce da experiência de depender de contratantes e de ver outros receberem o reconhecimento.",
         "É uma anã de pele castanha, rosto arredondado, nariz curto e cabelo preto espesso, quase sempre preso num nó torto. Uma faixa de sardas claras atravessa o nariz. A lente corretiva se encaixa sobre o olho esquerdo quando trabalha em peças pequenas. Usa camisa clara com mangas presas, colete castanho e roupas resistentes; o avental acompanha a tarefa. Leva ferramentas e peças de mana, sem transformar o martelo de oficina numa arma de guerra habitual.",
@@ -2015,13 +2175,15 @@
       },
       "related": [
         "racia",
+        "ihfarilse",
+        "guias-partidas",
+        "vortics",
         "dorgamar",
         "khoram",
         "dalia-ress",
         "loria-halven",
         "mavra-senn",
         "vento",
-        "vortics",
         "recuperacao-samarith"
       ],
       "image": "v11-sera",
@@ -2049,6 +2211,16 @@
         {
           "title": "Das galerias à companhia",
           "text": "Nas Guias Partidas, reconheceu ferramentas desviadas e participou da intervenção nas galerias. O contato com os demais começou antes de 788, enquanto a integração à missão conjunta ocorreu posteriormente, em Ihfarilse. Sua familiaridade com mecanismos não torna segura qualquer instalação antiga. Trabalhar com Le Rink e Nyssara põe os ensaios de oficina em diálogo com a magia erudita e a leitura de vestígios; com Liana, aprende a defender o tempo necessário para preparar uma intervenção."
+        },
+        {
+          "title": "Da bancada às galerias",
+          "text": "O trabalho de Sera começa no ajuste da peça e no que ela precisa suportar em uso. Nas galerias, o reconhecimento das ferramentas desviadas levou esse conhecimento de oficina à investigação. Em Ihfarilse, a colaboração com os companheiros passou a integrar a missão conjunta.",
+          "readingLinks": [
+            "racia",
+            "ihfarilse",
+            "guias-partidas",
+            "vortics"
+          ]
         }
       ],
       "sources": [
@@ -2079,7 +2251,7 @@
       "id": "selyra",
       "name": "Selyra Naereth",
       "category": "Personagens",
-      "summary": "Rainha de Quinder, entre o dever de oferecer abrigo e o hábito de controlar os caminhos.",
+      "summary": "Selyra Naereth governa Quinder de Xeo Taoju no início de 788 da III Era. Seus santuários a reconhecem como Arauto de Eilistraee. No governo civil, suas decisões sobre petições de terra, tribunais mistos e circulação expõem as tensões entre acolhimento e vigilância.",
       "paragraphs": [
         "Selyra governa a partir de Xeo Taoju, num reino atravessado pelas relações entre comunidades humanas e élficas negras. A continuidade de acordos antigos não elimina disputas sobre terras, acesso e reparação. A rainha autoriza determinados recursos a tribunais mistos, preservando ampla vigilância sobre os caminhos.",
         "Escuta petições demoradas e guarda detalhes que funcionários esquecem. A postura rígida disfarça uma lesão no joelho. Sua capacidade de atenção pode oferecer abrigo e também sustentar um governo habituado a controlar a circulação de pessoas e informações.",
@@ -2171,7 +2343,7 @@
       "id": "arriot",
       "name": "Arriot Ilvar",
       "category": "Personagens",
-      "summary": "Rei de Aelvar e pai de Le Rink, acostumado à política da longa memória.",
+      "summary": "Arriot Ilvar reina em Aelvar desde 622 da III Era e é pai de Le Rink. Seu governo negociou direitos de cultivo em Aston e mantém relações com a Ordem dos Magos, sediada em Aethravel e regida por seus próprios pactos.",
       "paragraphs": [
         "Arriot governa desde 622. Em 631, o Acordo dos Pomares de Aston reconheceu direitos de cultivo a famílias sem vínculo com grandes casas. Parte das propriedades continuou obrigada a entregar frutos aos depósitos reais antes de vender excedentes; a reforma conservou dependências que seus beneficiários ainda discutem.",
         "Tem cabelo cinzento preso por uma faixa simples, rosto muito magro e uma antiga queimadura encoberta por luvas cerimoniais. Fala quase intimamente mesmo em assembleias, fazendo os demais silenciarem. Afetuoso em particular, reserva as demonstrações públicas; Le Rink aprendeu a buscar sua aprovação no trabalho.",
@@ -2310,7 +2482,7 @@
       "id": "calven",
       "name": "Calven IX",
       "category": "Personagens",
-      "summary": "O Grande Pombo de Samarith, guardião de uma instituição influente.",
+      "summary": "Calven IX é o Grande Pombo de Samarith no início de 788 da III Era. Administra a Torre, os santuários e os arquivos da comunhão dos Sete. Sua atuação depende das garantias do Acordo das Lâmpadas e da negociação com o governo civil de Quinder.",
       "paragraphs": [
         "Calven IX ocupa uma liderança cuja influência depende de arquivos, santuários, recursos e relações políticas. A Torre se encontra em Samarith, sob o governo territorial de Quinder. Preservar a autonomia institucional exige acordos com autoridades que não compartilham todas as suas prioridades.",
         "Alto, de cabelos ralos e sobrancelhas espessas, fala devagar, por vezes irritando quem chega com urgência. Sua coragem pessoal convive com pouca disposição para expor as concessões que sustentam a instituição. Conservar a Torre não equivale necessariamente a atender cada pessoa que procura sua proteção.",
@@ -2517,7 +2689,7 @@
       "id": "ordem",
       "name": "Ordem dos Magos",
       "category": "Organizações",
-      "summary": "Instituição setentrional de estudo, proteção e disputa pelo controle do conhecimento.",
+      "summary": "A Ordem dos Magos é uma instituição de pesquisa, formação e perícia sediada em Aethravel. Caerion Thalas a fundou por volta de 6035 da I Era, sob a proteção de Arieth Ilvar. Sua autoridade se apoia em regras próprias de acesso, registro e revisão de trabalhos.",
       "paragraphs": [
         "Aethravel, no extremo norte, é o centro da Ordem. Sua relação com a coroa de Aelvar combina pactos, recursos e autonomia institucional.",
         "Na Terceira Era, a instituição passa a admitir não-elfos. A mudança abre possibilidades sem eliminar desigualdades de origem ou influência.",
@@ -2545,9 +2717,12 @@
         "selo-tempo",
         "oficinas-responsabilidade",
         "carta-ensaios-compartilhados",
-        "comissoes-samarith"
+        "comissoes-samarith",
+        "aethravel",
+        "arriot",
+        "racia"
       ],
-      "image": null,
+      "image": "v18-org-magos",
       "spoiler": "A comissão examina a condução do isolamento e a revisão de 755. Ivela entrega documentos e Rul presta depoimento sobre os registros preservados. A apuração permanece aberta.",
       "aliases": [
         "Ordem dos Magos"
@@ -2565,31 +2740,52 @@
       ],
       "sections": [
         {
-          "title": "Responsabilidades pelo isolamento",
-          "text": "A abertura da Ordem a pesquisadores de diferentes povos convive com disputas de acesso e autoridade. O isolamento de 731 exige distinguir autorização, execução, alteração de registros, conhecimento posterior e contestação."
+          "title": "A fundação em Aethravel",
+          "text": "Caerion Thalas reuniu pesquisadores sob a proteção de Arieth Ilvar. Maeriel Sorn sustentou o intercâmbio com os Eldenari, e a Mesa das Portas podia exigir registros e suspender uma intervenção. A crise do Selo do Tempo pôs esses procedimentos à prova quando a cooperação entre as comunidades se desfez.",
+          "sourceRef": {
+            "source": "RG27",
+            "chapter": 38,
+            "record": "RC-IE00"
+          },
+          "readingLinks": [
+            "caerion-thalas",
+            "arieth-ilvar",
+            "maeriel-sorn",
+            "mesa-portas",
+            "selo-tempo"
+          ]
+        },
+        {
+          "title": "Quem pode autorizar uma intervenção",
+          "text": "A Ordem reúne pesquisadores de diferentes povos e administra o acesso a seus próprios recursos e registros. A coroa de Aelvar pode negociar e pedir explicações. O isolamento de 731 mostra por que é preciso distinguir quem autorizou uma operação, quem a executou e quem teve acesso aos registros depois.",
+          "readingLinks": [
+            "aethravel",
+            "aelvar",
+            "arriot",
+            "isolamento-de-731"
+          ]
         },
         {
           "title": "Na história política de Vaelen Endor",
           "text": "Selvar II é imperador entre 2078 e 2149 da II Era. A correspondência de Tessia com a Mesa dos Instrumentos Reservados é datada em 2093, sem fixar a descoberta da Agulha. O processo de Leva Senn na Controvérsia do Espelho é situado em 2101. Aren Voss recusa condenação por possibilidade futura."
         },
         {
-          "title": "A fundação e seus dilemas",
-          "text": "Caerion Thalas fundou a Ordem por volta de 6035 em Aethravel, sob proteção de Arieth Ilvar. A Mesa das Portas podia suspender trabalhos e exigir registros. Maeriel Sorn sustentou o intercâmbio com os Eldenari. A crise do Selo expôs o limite de procedimentos que dependiam de confiança entre comunidades em guerra.",
-          "sourceRef": {
-            "source": "RG27",
-            "chapter": 38,
-            "record": "RC-IE00"
-          }
-        },
-        {
-          "title": "Uso e acesso à mana",
-          "text": "Formação, observação de Descompassos, perícia sobre artefatos e avaliação de travessias. Uma equipe pode comparar sinais, testar âncoras e registrar condições de interrupção antes de intervir. A autorização institucional é uma responsabilidade distinta da viabilidade técnica."
+          "title": "Formação e perícia em 788",
+          "text": "A Ordem forma pesquisadores, estuda Descompassos e avalia artefatos e travessias. Antes de intervir, uma equipe pode comparar sinais, testar âncoras e definir quando interromper o trabalho. Em cidades como as da Rácia, a Guilda dos Magos oferece outra via de formação, ligada a laboratórios e ofícios urbanos.",
+          "readingLinks": [
+            "magos",
+            "racia",
+            "oficinas-responsabilidade"
+          ]
         }
       ],
       "bookFiles": [
         "Vaelen_Endor_A_Construcao_e_a_Queda_do_Imperio.pdf"
       ],
-      "tables": []
+      "tables": [],
+      "imageAlt": "Ilustração da Ordem dos Magos",
+      "imageCaption": "Ordem dos Magos, instituição de estudo e formação sediada em Aethravel.",
+      "wideImage": true
     },
     {
       "id": "pombo-torto",
@@ -2635,7 +2831,7 @@
       "id": "orcs",
       "name": "Orcs",
       "category": "Povos",
-      "summary": "Os Urakh eram comunidades de planalto formadas na dispersão de populações Eldenari e outras famílias materiais durante a I Era.",
+      "summary": "Os orcs descendem de comunidades de planalto conhecidas como Urakh, formadas durante as dispersões da I Era. Na II Era, a defesa de poços, pastagens e caminhos deu origem a pactos que ajudaram a formar a Confederação Orc. Em 788, há comunidades orcs dentro e fora da Confederação, ligadas a ofícios e autoridades locais.",
       "paragraphs": [],
       "facts": {
         "Referência temporal": "Início de 788 da III Era",
@@ -2701,13 +2897,18 @@
           }
         },
         {
-          "title": "Pacto e divergência",
-          "text": "A Confederação reúne tribos com interesses diferentes sobre comércio, guerra, terras e relações com vizinhos. A autoridade de uma assembleia depende das obrigações aceitas e de quem reconhece seus representantes. Comunidades orcs também vivem fora dela, e vínculos urbanos podem ser tão antigos quanto os de planalto. Um chefe não governa cada pessoa de ascendência orc. Conflitos por restituição ou indenização atravessam famílias e podem produzir respostas opostas à mesma violência.",
+          "title": "Dentro e fora da Confederação",
+          "text": "A Confederação articula comunidades com interesses diferentes em comércio, defesa e restituição. Os compromissos assumidos em assembleia valem para quem os reconhece. Famílias orcs também vivem em cidades e mantêm vínculos profissionais e comunitários próprios.",
           "sourceRef": {
             "source": "RG211",
             "chapter": 46,
             "record": "RC-PO08"
-          }
+          },
+          "readingLinks": [
+            "confederacao-orc",
+            "khoram",
+            "nerka-voss"
+          ]
         },
         {
           "title": "Trabalho e memória",
@@ -2748,7 +2949,7 @@
       "id": "goblins",
       "name": "Goblins",
       "category": "Povos",
-      "summary": "Os ancestrais goblins viviam em comunidades menores dos contrafortes orientais.",
+      "summary": "Os goblins descendem de comunidades dos contrafortes orientais, entre elas famílias ligadas à dispersão Eldenari. A disputa pelas cisternas de Zikka Ven, na II Era, mostra como o trabalho de recuperar água podia se tornar uma questão de sobrevivência e de direito de permanência.",
       "paragraphs": [],
       "facts": {
         "Referência temporal": "Início de 788 da III Era",
@@ -2860,7 +3061,7 @@
       "id": "arautos",
       "name": "Arautos",
       "category": "Cosmologia",
-      "summary": "Encarnações divinas que nascem sem conhecer necessariamente sua missão.",
+      "summary": "Arautos são pessoas que encarnam uma parcela de uma identidade divina e vivem uma biografia própria. O reconhecimento pode surgir de sonhos, sinais ou testemunhos e ser aceito por uma comunidade enquanto outra o contesta.",
       "paragraphs": [
         "Um Arauto pode descobrir o chamado durante a vida, interpretá-lo de modo incompleto ou jamais reconhecê-lo. A encarnação não oferece certeza automática sobre cada decisão.",
         "Santuários, testemunhas e adversários podem discordar de uma identificação. O caso de Selyra Naereth está entre os reconhecimentos mais sólidos de seu tempo, sem encerrar o debate."
@@ -2879,7 +3080,10 @@
         "religiao-virtude",
         "grande-pombo",
         "viormund",
-        "auvren"
+        "auvren",
+        "nereth",
+        "eilistraee",
+        "doutrina-sinais-cruzados"
       ],
       "image": null,
       "spoiler": null,
@@ -2916,6 +3120,16 @@
             "source": "RG230",
             "chapter": 96
           }
+        },
+        {
+          "title": "Como um reconhecimento se forma",
+          "text": "Oren Namar é lembrado na tradição de Nereth pelo trabalho de preservar os nomes dos mortos. O reconhecimento de Nyravel Sareth entre seguidores de Eilistraee foi contestado. A comparação ajuda a entender por que o reconhecimento tem uma história própria e por que os testemunhos precisam ser confrontados.",
+          "readingLinks": [
+            "nereth",
+            "eilistraee",
+            "doutrina-sinais-cruzados",
+            "religiao-virtude"
+          ]
         }
       ],
       "tables": []
@@ -2924,7 +3138,7 @@
       "id": "planos",
       "name": "Os três planos",
       "category": "Cosmologia",
-      "summary": "Virtude, Eomundus e Noérion na compreensão da criação.",
+      "summary": "Virtude, Eomundus e Noérion são os três planos descritos nas tradições de criação. Virtude é o plano material. Eomundus dá continuidade a formas e vínculos. Noérion é associado a pensamentos, afetos e possibilidades. A mana circula entre os três.",
       "paragraphs": [
         "A cosmologia de Virtude trata consciência e realidade como dimensões intimamente ligadas. Os três planos recebem os nomes de Noérion, Eomundus e Virtude.",
         "O encontro com manifestações pode produzir relatos difíceis de conciliar. Uma experiência extraordinária não obriga todas as culturas a descrevê-la da mesma maneira."
@@ -2940,7 +3154,10 @@
         "mana",
         "eomundus",
         "travessias-espaco",
-        "oleakes"
+        "oleakes",
+        "virtude-plano",
+        "noerion",
+        "descompassos"
       ],
       "image": "v31-criacao-virtude",
       "spoiler": null,
@@ -2964,6 +3181,18 @@
         {
           "title": "Fechamento das passagens e circulação de mana",
           "text": "O fechamento interrompeu a rede antiga de travessias regulares. A mana continuou circulando pelas relações entre Virtude, Eomundus e Noérion. A circulação permite efeitos locais e contatos limitados. Transportar alguém exige uma passagem capaz de sustentar corpo e retorno. Travessias excepcionais posteriores dependem de condições próprias, como âncoras, preparação ou um Descompasso."
+        },
+        {
+          "title": "Circulação e travessia",
+          "text": "A circulação da mana continuou depois do fechamento das antigas travessias regulares. Uma passagem capaz de sustentar o trânsito de uma pessoa exige condições próprias. Os Descompassos mostram como o contato entre planos pode alterar a experiência e a passagem.",
+          "readingLinks": [
+            "virtude-plano",
+            "eomundus",
+            "noerion",
+            "mana",
+            "travessias-espaco",
+            "descompassos"
+          ]
         }
       ],
       "wideImage": true,
@@ -2974,7 +3203,7 @@
       "id": "magia",
       "name": "Magia",
       "category": "Cosmologia",
-      "summary": "Estudo, prática e relações entre vontade, conhecimento e as condições do mundo.",
+      "summary": "A magia é o conjunto de práticas que trabalha a mana para produzir efeitos sob condições determinadas. Aprender uma técnica envolve reconhecer o que a sustenta, quanto ela consome e quando precisa ser interrompida.",
       "paragraphs": [
         "O cenário reúne tradições e modos de compreender a magia. Instrumentos, preparação, limites de alcance e custos fazem diferença nas ações dos praticantes.",
         "O Livro de Regras 0.3 usa seis caminhos da mana, perícias de caminho, magias aprendidas e círculos. A prática narrativa de magia nas Crônicas pode incluir técnicas e instrumentos que pertencem a contextos específicos do cenário."
@@ -3088,6 +3317,16 @@
         {
           "title": "Tradições por povo, guilda e era",
           "text": "Os verbetes ligados a esta página mostram onde uma técnica foi registrada ou pode ser praticada. Os exemplos de uso indicam possibilidades de ofício e formação. A cronologia de fundação, as descobertas atribuídas e os feitos documentados seguem os respectivos relatos."
+        },
+        {
+          "title": "Uma técnica em uso",
+          "text": "Uma barreira depende de preparação e concentração. A cura pode estabilizar um ferido, e a recuperação ainda exige tempo e cuidado. Em ambos os casos, entender a técnica ajuda a explicar quem precisa participar e quais condições podem interromper o efeito.",
+          "readingLinks": [
+            "mana",
+            "cura-e-limites",
+            "magia-vida-material",
+            "oficinas-responsabilidade"
+          ]
         }
       ],
       "wideImage": true,
@@ -3686,7 +3925,7 @@
       "name": "Reino de Nobilith",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Casas antigas, direitos de propriedade e disputas de sucessão num dos Reinos Centrais.",
+      "summary": "Nobilith é um reino dos Reinos Centrais atravessado pela Serra de Sar-Nobil. Os direitos de passagem pela serra e a influência das casas antigas ajudam a explicar sua posição entre os reinos vizinhos.",
       "facts": {
         "Centro": "Nobilith",
         "Rei no início de 788": "Osric Dalm",
@@ -3829,7 +4068,7 @@
       "name": "Reino da Cávia",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Reino de portos, mineração e transporte entre Trogu e as subidas de Juu Daixo.",
+      "summary": "A Cávia é um reino ligado à mineração de Juu Daixo e ao porto de Trogu, sua capital. O Caminho Alto traz transporte da Rácia ao interior, e Trogu embarca mercadorias para o Mar de Lombonia.",
       "facts": {
         "Rei": "Darian Torv",
         "Capital": "Trogu",
@@ -3948,7 +4187,7 @@
       "name": "Reino de Heria",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Tradições de cavalaria e tensões sobre serviço, rendas e privilégios num dos Reinos Centrais.",
+      "summary": "Heria é um reino dos Reinos Centrais governado por Alveran III. Casas de cavalaria sustentam parte dos serviços do reino e conservam rendas e isenções que influenciam as decisões da coroa.",
       "facts": {
         "Rei": "Alveran III",
         "Referência institucional": "Guilda dos Heróis",
@@ -4055,7 +4294,7 @@
       "name": "Reino de Milles",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Rotas setentrionais, floresta e relações de câmbio entre o Estreito e as cidades do interior.",
+      "summary": "Milles é um reino setentrional com uma grande área florestal e acessos tanto ao Estreito do Norte quanto ao Mar Gelado. A capital fica ao sul da floresta, enquanto Wegas e Nova Milles atendem litorais diferentes.",
       "facts": {
         "Rainha": "Rovena Aster",
         "Capital": "Cidade de Milles",
@@ -4217,7 +4456,7 @@
       "name": "Reino de Bergen",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Reino setentrional de rotas frias, fortificações e tradições religiosas próprias.",
+      "summary": "Bergen é um reino setentrional cujos postos e fortificações dependem do abastecimento por rotas frias. A Grande Muralha de Hravn e a devoção a Auvren são referências de sua história.",
       "facts": {
         "Referência religiosa": "Cultos de Auvren",
         "Fortificação": "Grande Muralha de Hravn",
@@ -4358,7 +4597,7 @@
       "name": "Reino de Iltharion",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Reino oriental de elfos altos, independente da corte de Emvale.",
+      "summary": "Iltharion é um reino oriental de elfos altos governado de Nerathiel por Elyndra Vaess. A herança aelthir o aproxima de Aelvar, e sua corte mantém governo próprio e contatos costeiros com Jacomb.",
       "facts": {
         "Capital": "Nerathiel",
         "Rainha": "Elyndra Vaess",
@@ -4460,7 +4699,7 @@
       "name": "Reino de Sularien",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Estado élfico negro do sudeste, com centro em Nhal-Sular e relações de costa próprias.",
+      "summary": "Sularien é um reino élfico negro no sudeste de Virtude, governado a partir de Nhal-Sular. Seus acessos costeiros sustentam relações próprias com os estados vizinhos.",
       "facts": {
         "Capital": "Nhal-Sular",
         "Rei": "Tharven Il-Sareth",
@@ -4534,7 +4773,7 @@
       "name": "Confederação Halfling de Pellanor",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Rede de pequenos estados e comunidades halflings sem capital soberana única.",
+      "summary": "Pellanor é a confederação de comunidades halflings dos vales a oeste de Velkar. Vilas autônomas cooperam na manutenção de pontes, abrigos e celeiros. A confederação reúne várias autoridades locais.",
       "facts": {
         "Organização": "Confederação",
         "Capital": "Sem capital soberana única",
@@ -4581,16 +4820,29 @@
       "imageCaption": "Pellanor — pontes, abrigos e pequenas comunidades · Interpretação visual dos materiais do cenário.",
       "sections": [
         {
-          "title": "Vales, pontes e comunidades",
-          "text": "A Confederação Halfling de Pellanor reúne pequenas soberanias e comunidades dos vales ocidentais. Pontes, correios, abrigos e celeiros conectam localidades de escala própria, sem capital soberana única. A hospitalidade é sustentada por famílias e instituições, com custos de alimento, trabalho e manutenção. A Confederação Halfling fica a oeste, além da Cordilheira de Welkar, grafada Velkar no mapa de referência."
+          "title": "Como as vilas cooperam",
+          "text": "A oeste de Velkar, pontes e pousos ligam vilas que governam seus próprios assuntos. Receber quem viaja implica manter travessias e alojamentos. Guardar reservas em várias localidades distribui o trabalho e permite que uma vila procure ajuda quando perde parte da colheita.",
+          "readingLinks": [
+            "halflings",
+            "meliva",
+            "merovel"
+          ]
         },
         {
-          "title": "Pactos de abrigo",
-          "text": "A tradição liga Pella Três-Pontes à união de vilas por abrigos e reservas sob proteção religiosa de Meliva. Enchentes, banditismo e tentativas de anexação ajudaram a formar a rede. A Mesa das Sete Panelas conserva o nome da reunião inaugural de 208 da III Era e hoje possui mais de sete membros. Coordena abastecimento sem substituir governos locais."
+          "title": "Dos pactos de abrigo à Mesa das Sete Panelas",
+          "text": "A tradição atribui a Pella Três-Pontes a articulação de acordos contra enchentes, banditismo e tentativas de anexação. A Mesa das Sete Panelas conserva o nome da reunião de 208 da III Era. Ela coordena abastecimento entre comunidades que continuam a decidir seus próprios assuntos.",
+          "readingLinks": [
+            "pella-tres-pontes",
+            "halflings"
+          ]
         },
         {
-          "title": "Pellanor no início de 788",
-          "text": "Lessa Vint coordena parte da correspondência comum por uma associação de localidades do oeste. Na Disputa das Pontes Baixas, em 772, inspeção e tabelas por peso limitaram conflitos de pedágio. Isenções a parentes e despesas de pequenas cortes continuam contestadas. Compromissos entre comunidades dependem de negociação."
+          "title": "Quem paga pela travessia",
+          "text": "Na Disputa das Pontes Baixas, em 772 da III Era, inspeções e tabelas por peso limitaram conflitos de pedágio. Isenções a parentes e despesas das pequenas cortes continuaram em debate. Em 788, Lessa Vint coordena parte da correspondência comum entre localidades do oeste.",
+          "readingLinks": [
+            "halflings",
+            "viagens-condicoes"
+          ]
         },
         {
           "title": "Além de Welkar",
@@ -4634,7 +4886,7 @@
       "name": "União das Tocas de Oleakia",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Comunidades oleakes, refúgios e depósitos dispersos numa união de tribos e assembleias.",
+      "summary": "Oleakia é uma união de tribos e assembleias oleakes. Seus refúgios e depósitos dispersos ajudam a organizar a proteção comunitária e o abastecimento.",
       "facts": {
         "Coordenação": "Ima Olek",
         "Organização": "União das Tocas",
@@ -4757,7 +5009,7 @@
       "name": "Confederação Orc",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Pacto entre comunidades orcs que conservam autonomia e decisões em assembleia.",
+      "summary": "A Confederação Orc reúne comunidades que preservam sua autonomia e negociam em assembleia questões de passagem, água e defesa. Suas disputas territoriais remontam à II Era e continuavam com Vardessa na III.",
       "facts": {
         "Organização": "Confederação de comunidades",
         "Tradição": "Pacto das Pedras Falantes",
@@ -4774,7 +5026,11 @@
         "orcs",
         "moedas-e-comercio",
         "ursha-mao-aberta",
-        "pacto-pedras-falantes"
+        "pacto-pedras-falantes",
+        "kharug",
+        "vardessa",
+        "provincia-sokeria",
+        "druvak"
       ],
       "image": "v06-confederacao-orc",
       "aliases": [
@@ -4794,12 +5050,21 @@
       "imageCaption": "Comunidade da Confederação Orc — assembleia e trabalho cotidiano · Interpretação visual baseada nas descrições do cenário.",
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "A Confederação Orc preserva a memória de pactos de passagem, água e defesa. Sua história se liga à articulação de tribos e comunidades, sem entregar todas as decisões a uma coroa nacional."
+          "title": "A defesa de poços, pastagens e caminhos",
+          "text": "Na fome da II Era, o controle de poços, pastagens e caminhos afetava a capacidade de permanecer nas terras ou conduzir rebanhos. Ursha Mão-Aberta reuniu tribos para defender esses acessos. O Pacto das Pedras Falantes estabeleceu assembleias comuns e preservou a autonomia das comunidades.",
+          "readingLinks": [
+            "orcs",
+            "ursha-mao-aberta",
+            "pacto-pedras-falantes"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "Representantes e anfitriões não possuem autoridade automática sobre cada grupo encontrado adiante. Condutores, famílias e parceiros de comércio mantêm referências e compromissos que não se resumem a ordens de um único governante. Orcs também vivem em cidades e regiões fora da Confederação. Costume, profissão e posição política variam; um registro em madeira ou um guerreiro individual não representa o modo de vida de todo o povo."
+          "title": "A autoridade de uma assembleia",
+          "text": "Cada assembleia depende das obrigações que os participantes aceitaram. Um anfitrião pode negociar água e local de acampamento para um grupo de viajantes. Em outra comunidade, cabe aos viajantes buscar referências e acertar as condições com quem recebe.",
+          "readingLinks": [
+            "orcs",
+            "kharug"
+          ]
         },
         {
           "title": "Assembleias em 788",
@@ -4810,20 +5075,29 @@
           "text": "O Guia recomenda obter referências de condutores, famílias ou parceiros de comércio. O local de acampamento e o acesso a água e animais dependem dos acordos com a comunidade anfitriã."
         },
         {
-          "title": "Disputas territoriais",
-          "text": "Durante a II Era, as principais tomadas de terras das comunidades hoje reunidas na Confederação Orc foram promovidas por humanos do Império Ocidental e da Província de Sokeria.",
+          "title": "As tomadas de terras na II Era",
+          "text": "Humanos do Império Ocidental e da Província de Sokeria estiveram entre os principais agentes das tomadas de terras das comunidades hoje reunidas na Confederação. Para quem dependia de poços e pastagens, perder acesso a um local podia também comprometer o caminho entre áreas de criação.",
           "sourceRef": {
             "source": "RG229",
             "chapter": 95
-          }
+          },
+          "readingLinks": [
+            "vardessa",
+            "provincia-sokeria"
+          ]
         },
         {
-          "title": "Disputas territoriais",
-          "text": "Na III Era, as disputas por essas terras continuaram sobretudo com Vardessa, o Império Ocidental, cuja população é majoritariamente humana.",
+          "title": "Disputas e reparação na III Era",
+          "text": "Na III Era, as disputas continuaram sobretudo com Vardessa, cuja população é majoritariamente humana. A Querela de Terval, de 763 a 770, deixou indenizações parciais e limites de uso contestados. A trajetória de Kharug e Druvak mostra como uma reparação parcial podia dividir até pessoas da mesma família.",
           "sourceRef": {
             "source": "RG229",
             "chapter": 95
-          }
+          },
+          "readingLinks": [
+            "vardessa",
+            "kharug",
+            "druvak"
+          ]
         }
       ],
       "hasLocation": true,
@@ -4834,7 +5108,7 @@
       "name": "Liga dos Passos de Chisiague",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Liga em torno de uma entrada marítima alongada, aberta a leste entre faixas montanhosas.",
+      "summary": "Chisiague é uma liga organizada em torno de uma entrada marítima estreita e alongada, aberta a leste. As serras que a cercam condicionam o acesso aos locais de desembarque e armazenagem.",
       "facts": {
         "Coordenação": "Halessa Norn",
         "Organização": "Liga dos Passos",
@@ -4917,7 +5191,7 @@
       "name": "Reino de Jacomb",
       "category": "Lugares",
       "placeType": "Reino / estado",
-      "summary": "Reino oriental ligado à navegação, aos pilotos e à circulação de notícias entre costas.",
+      "summary": "Jacomb é um reino oriental cuja capital portuária é a Cidade de Jacomb. Casas de navegação e pilotos sustentam o comércio com Iltharion e a circulação de notícias pelas costas.",
       "facts": {
         "Rei": "Celvar Renn",
         "Referência": "Ofício das Marés",
@@ -5437,7 +5711,7 @@
       "name": "Vaelen Endor",
       "category": "Lugares",
       "placeType": "Cidade / centro",
-      "summary": "Capital de Valerith e antiga capital imperial, com edifícios, mercados e arquivos de usos sucessivos.",
+      "summary": "Vaelen Endor é a capital de Valerith e foi a sede do império proclamado em 1896 da II Era. A cidade fica no interior. Seus arquivos e mercados ligam a corte aos caminhos que chegam à Rácia, a Milles e ao litoral de Nerevala.",
       "facts": {
         "Reino / estado": "Valerith",
         "Função": "Capital",
@@ -5464,7 +5738,8 @@
         "distancia-recursos-limites",
         "ihfarilse",
         "atlante",
-        "incorporacao-racia"
+        "incorporacao-racia",
+        "milles"
       ],
       "image": "v07-vaelen-endor",
       "aliases": [],
@@ -5516,8 +5791,14 @@
       ],
       "sections": [
         {
-          "title": "Capital de Valerith",
-          "text": "Vaelen Endor conserva a escala cívica da antiga capital imperial. Praças, fachadas, mercados e edifícios reaproveitados registram funções que mudaram entre eras. A corte atual convive com oficinas, arquivos e bairros diversos. O eixo de Milles e do Bosque de Eshalem se articula com Nobilith, Valada e Nerevala."
+          "title": "Uma capital no interior",
+          "text": "Praças, mercados, arquivos e edifícios reaproveitados conservam marcas de funções imperiais. As cargas podem seguir para leste até Valada ou para sul até Nerevala, onde a navegação costeira dá continuidade à viagem. O caminho de Milles passa pelo setor do Bosque de Eshalem.",
+          "readingLinks": [
+            "valerith",
+            "valada",
+            "nerevala",
+            "milles"
+          ]
         },
         {
           "title": "Herança imperial",
@@ -5576,7 +5857,7 @@
       "name": "Ihfarilse",
       "category": "Lugares",
       "placeType": "Cidade / centro",
-      "summary": "Centro urbano da Rácia associado a oficinas, biblioteca e aos trabalhos do Circuito do Vento Arcano.",
+      "summary": "Ihfarilse é uma cidade da Rácia entre Valada e Atlante. Sua biblioteca, suas oficinas e o Circuito do Vento Arcano se desenvolveram no mesmo corredor que traz materiais do interior e leva mercadorias à costa.",
       "facts": {
         "Reino / estado": "Racia",
         "Instituições": "Biblioteca e oficinas",
@@ -5601,7 +5882,8 @@
         "distancia-recursos-limites",
         "atlante",
         "nerevala",
-        "incorporacao-racia"
+        "incorporacao-racia",
+        "cavia"
       ],
       "image": "v07-ihfarilse",
       "aliases": [],
@@ -5651,8 +5933,14 @@
       ],
       "sections": [
         {
-          "title": "Rio, estudo e oficinas",
-          "text": "Ihfarilse reúne bairros de trabalho, mercados e estudo no corredor fluvial vindo de Valada e seguindo para Atlante. A Biblioteca das Águas, associada a Khoram Tesh, preserva livros e recebe consultas e pedidos de cópia. Papel, metal e pequenos mecanismos circulam entre oficinas e saberes de mana."
+          "title": "Uma cidade de oficinas no vale da Rácia",
+          "text": "Papel, metal e pequenos mecanismos circulam entre mercados, oficinas e estudiosos de mana. A Biblioteca das Águas atende consultas e pedidos de cópia. O corredor de Valada traz materiais que podem vir da Cávia, e Atlante conecta a cidade ao transporte marítimo.",
+          "readingLinks": [
+            "valada",
+            "atlante",
+            "cavia",
+            "mata-miraveth"
+          ]
         },
         {
           "title": "A formação do Circuito",
@@ -5687,7 +5975,7 @@
       "name": "Valada",
       "category": "Lugares",
       "placeType": "Cidade / centro",
-      "summary": "Cidade do corredor entre Ihfarilse, as passagens interiores e os acessos do Caminho Alto.",
+      "summary": "Valada é uma cidade da Rácia onde se separam os caminhos para Ihfarilse, Heria e a Cávia. Quem sai de Vaelen Endor pode descer pelo vale até Atlante ou preparar em Valada a subida do Caminho Alto rumo a Juu Daixo.",
       "facts": {
         "Reino / estado": "Racia",
         "Função": "Articulação de caminhos"
@@ -5759,12 +6047,24 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Valada ocupa um corredor de circulação da Rácia, articulado com Heria e as passagens da Cávia. A estrada de Ihfarilse sobe para alcançar essa região antes de prosseguir aos relevos de Juu Daixo."
+          "title": "Onde os caminhos se separam",
+          "text": "A estrada para Ihfarilse acompanha o corredor interno da Rácia e prossegue até Atlante. O Caminho Alto atravessa a serra rumo a Juu Daixo e depois a Trogu. O acesso a Heria toma a direção norte e nordeste.",
+          "readingLinks": [
+            "vaelen-endor",
+            "ihfarilse",
+            "atlante",
+            "caminho-alto",
+            "heria"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "Rios, serra e condições de carga afetam as escolhas de percurso. A posição de Valada não permite tratar Trogu como uma saída costeira imediata de Ihfarilse. Transporte, pouso e informação atual de caminho são serviços importantes para quem atravessa o corredor. As conexões não eliminam a necessidade de verificar passagens e manutenção."
+          "title": "O peso da carga na escolha da rota",
+          "text": "A subida serrana exige atenção a ferragens, amarrações, cascos e provisões. No vale, a escolha entre estrada e barca depende do trecho e do destino. Essa diferença sustenta o trabalho de pousos, oficinas e guias em Valada.",
+          "readingLinks": [
+            "caminho-alto",
+            "juu-daixo",
+            "ihfarilse"
+          ]
         },
         {
           "title": "Serviços do corredor",
@@ -5790,7 +6090,7 @@
       "name": "Atlante",
       "category": "Lugares",
       "placeType": "Cidade / centro",
-      "summary": "Cidade costeira da Rácia articulada às relações de rio e aos trajetos do Mar das Espadas.",
+      "summary": "Atlante é o porto da Rácia na foz do rio que passa por Valada e Ihfarilse. A cidade recebe cargas do interior e participa da cabotagem do Mar das Espadas, inclusive nas trocas com Nerevala.",
       "facts": {
         "Reino / estado": "Racia",
         "Posição": "Costa e circulação fluvial"
@@ -5867,12 +6167,21 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Atlante participa do circuito de cidades da Rácia junto de Valada e Ihfarilse. A relação entre navegação e transporte de terra ajuda a organizar mercadorias e destinos."
+          "title": "Da bacia da Rácia ao cais",
+          "text": "Mercadorias que passam por Valada e Ihfarilse chegam a Atlante por estrada ou por trechos fluviais utilizáveis. No porto, armazenagem e manutenção permitem reorganizar cargas para a viagem marítima.",
+          "readingLinks": [
+            "valada",
+            "ihfarilse",
+            "mar-espadas"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "Sua posição costeira se conecta ao eixo meridional de Valerith por Nerevala e aos percursos em direção a Isnymelha. Proximidade desenhada não garante passagem direta de qualquer carga. O nome designa uma cidade habitada do cenário, não uma cidade submersa ou uma civilização perdida. Cais, serviços e referências de piloto devem ser lidos no contexto das rotas locais."
+          "title": "A ligação com a costa de Valerith",
+          "text": "Nerevala e Atlante ocupam fozes diferentes. A ligação entre as duas cidades se faz pela costa, com transporte e transbordo conforme as condições do navio e da carga.",
+          "readingLinks": [
+            "nerevala",
+            "mar-espadas"
+          ]
         },
         {
           "title": "Trocas da costa",
@@ -6690,7 +6999,7 @@
       "name": "Nerevala",
       "category": "Lugares",
       "placeType": "Cidade / centro",
-      "summary": "Cidade meridional de Valerith, disputada por reivindicações da Sokeria e da Rácia.",
+      "summary": "Nerevala é uma cidade de Valerith na saída do corredor meridional de Vaelen Endor para o Mar das Espadas. Sokeria e Rácia reivindicam a cidade. A Trégua das Três Portas, firmada em 787 da III Era, regulou provisoriamente a circulação e as cobranças.",
       "facts": {
         "Reino / estado": "Valerith",
         "Soberania": "Valerith",
@@ -6775,12 +7084,23 @@
       ],
       "sections": [
         {
-          "title": "Território e vida local",
-          "text": "Nerevala pertence a Valerith. As reivindicações da Sokeria e da Rácia não a tornam uma cidade-estado independente nem um território de soberania dividida em três partes iguais."
+          "title": "Uma cidade na passagem para o mar",
+          "text": "De Vaelen Endor, a aproximação segue pelo corredor meridional. No litoral, as rotas se abrem para Isnymelha a oeste e Atlante a leste. A convergência sustenta depósitos, tributos e serviços de transporte.",
+          "readingLinks": [
+            "vaelen-endor",
+            "isnymelha",
+            "atlante",
+            "mar-espadas"
+          ]
         },
         {
-          "title": "Relações e caminhos",
-          "text": "A cidade ocupa um corredor meridional entre serras que descem ao Mar das Espadas. Conecta a direção de Vaelen Endor às rotas de Isnymelha e Atlante, sustentando depósitos, tributos e circulação. Alessa Vorn governa em nome de Maressa II e depende de abastecimento que atravessa os reinos reclamantes. Direitos de manutenção, parentesco e concessões comerciais são argumentos políticos, não transferências automáticas de soberania."
+          "title": "Quem governa e quem abastece",
+          "text": "Alessa Vorn governa em nome de Maressa II de Valerith. Madeira de Vaelora, pescado e transporte de Atlante e crédito da capital mantêm a cidade ligada aos três reinos. Direitos de manutenção, parentesco e concessões dão argumentos aos reclamantes nas negociações.",
+          "readingLinks": [
+            "valerith",
+            "sokeria",
+            "racia"
+          ]
         },
         {
           "title": "A trégua de 787",
@@ -7091,7 +7411,7 @@
     {
       "id": "vardessa",
       "name": "Vardessa — Império Ocidental",
-      "summary": "Estado ocidental conhecido por contatos diplomáticos e comerciais.",
+      "summary": "Vardessa é o nome do Império Ocidental nos tratados conhecidos pelos reinos centrais. Sua corte apresenta Ilaris Senn como imperatriz. O conhecimento cartográfico do interior ainda é limitado entre os viajantes dos reinos centrais.",
       "category": "Lugares",
       "paragraphs": [
         "Vardessa é o nome empregado em tratados recentes do estado chamado Império Ocidental pelos viajantes centrais. Sua corte apresenta Ilaris Senn como imperatriz. A representação diplomática é documentada; os materiais não oferecem uma descrição completa do território ou de suas capitais.",
@@ -7162,7 +7482,7 @@
     {
       "id": "povos-livres",
       "name": "Terras dos Povos Livres",
-      "summary": "Região de comunidades e autoridades distintas, sem soberano comum.",
+      "summary": "As Terras dos Povos Livres reúnem comunidades de autoridades distintas. O nome designa uma região do Atlas e abrange diferentes acordos locais de circulação e convivência.",
       "category": "Lugares",
       "paragraphs": [
         "Povos Livres designa uma região e comunidades com histórias e autoridades próprias, sem monarquia ou população única. Os registros variam demais para estabelecer uma proporção comum de habitantes ou um sistema político compartilhado.",
@@ -7966,7 +8286,7 @@
     {
       "id": "mar-lombonia",
       "name": "Mar de Lombonia",
-      "summary": "Mar dos circuitos orientais, associado às ilhas de Lombonia e a portos de diferentes estados.",
+      "summary": "O Mar de Lombonia banha as ilhas de Lombonia Ghostland e integra os circuitos de navegação de Trogu, Chisiague e Jacomb. Pilotos e autoridades registram advertências sobre a aproximação do arquipélago. As condições variam conforme a rota e o destino.",
       "category": "Lugares",
       "paragraphs": [
         "Mar de Lombonia é o nome oficial. As ilhas de Lombonia e as águas que recebem seu nome são entidades relacionadas, mas distintas. O perigo insular não torna todo o mar uma região de efeitos idênticos.",
@@ -7980,6 +8300,16 @@
         {
           "title": "Conexões",
           "text": "Chisiague possui entrada marítima aberta a leste. Jacomb, as costas orientais e os circuitos junto de Oleakia e Nogard participam de redes com operações sucessivas. Relação comercial com o Mar das Espadas não implica canal atravessando o continente."
+        },
+        {
+          "title": "O mar, os portos e a aproximação das ilhas",
+          "text": "A entrada marítima de Chisiague e o porto de Trogu pertencem às rotas do mar. Jacomb se liga a esses circuitos pelo comércio e pelo trabalho dos pilotos. Uma rota comercial pela costa tem condições próprias, e a decisão de aproximar-se das ilhas exige considerar as advertências sobre o arquipélago.",
+          "readingLinks": [
+            "lombonia",
+            "trogu",
+            "chisiague",
+            "jacomb"
+          ]
         }
       ],
       "facts": {
@@ -7990,7 +8320,9 @@
         "chisiague",
         "nogard",
         "mar-espadas",
-        "viagens-condicoes"
+        "viagens-condicoes",
+        "trogu",
+        "jacomb"
       ],
       "image": "v28-mar-lombonia",
       "aliases": [],
@@ -8130,7 +8462,7 @@
       "id": "natureza-lobo-de-cinza",
       "name": "Lobo de cinza",
       "category": "Natureza",
-      "summary": "O dorso pálido e as patas mais escuras concordam com o animal descrito por Odran.",
+      "summary": "Lobo-de-cinza é um nome usado em Milles para lobos de dorso pálido e patas mais escuras. A pelagem varia com idade e estação. Os registros de 778 relacionam a aproximação de animais a uma área onde moradores descartavam carcaças.",
       "paragraphs": [
         "O dorso pálido e as patas mais escuras concordam com o animal descrito por Odran. A pelagem muda com idade, estação e condição do indivíduo; por isso trato o nome como uma forma local de lobo, sem concluir que corresponda sozinho a uma espécie separada. Pegadas sobrepostas em lama podem exagerar o tamanho do bando.",
         "Acompanhei rastros em 778 com o condutor humano Jaren Hesk. Restos de presas e marcas de passagem mostravam visitas a uma área de descarte de carcaças. Ao mudar o descarte e proteger animais feridos, os moradores reduziram aproximações. Não atribuíram ao procedimento o desaparecimento de todos os lobos da região.",
@@ -8382,7 +8714,7 @@
       "id": "natureza-enguia-de-vidro",
       "name": "Enguia de vidro",
       "category": "Natureza",
-      "summary": "Quando vivas, as enguias deixam passar luz e apresentam pequenos pontos escuros ao longo do corpo.",
+      "summary": "A enguia-de-vidro é reconhecida pela translucidez em vida e pelos pontos escuros ao longo do corpo. Torna-se opaca depois da morte, o que explica diferenças entre os exemplares observados nas águas de Quinder e os desenhos feitos no mercado.",
       "paragraphs": [
         "Quando vivas, as enguias deixam passar luz e apresentam pequenos pontos escuros ao longo do corpo. Depois da morte, tornam-se opacas rapidamente. A mudança explica por que um desenho feito no mercado pode parecer incompatível com o exemplar entregue ao gabinete.",
         "Observei indivíduos entre raízes submersas e em recipientes de pescadores, registrando separadamente cada procedência. A presença em poças depois da baixa das águas não demonstra que possam viver fora delas. A continuidade entre trechos de rio e canais parece importante, mas não consegui seguir um ciclo completo de reprodução.",
@@ -8433,7 +8765,7 @@
       "id": "natureza-caranguejo-de-sino",
       "name": "Caranguejo de sino",
       "category": "Natureza",
-      "summary": "O ruído que lhe deu nome depende de muitos animais movendo peças soltas de cerâmica ou outros detritos.",
+      "summary": "O caranguejo-de-sino é registrado nas margens de Quinder. Seu nome vem do ruído produzido quando vários animais deslocam cacos de cerâmica e outros detritos enquanto procuram abrigo.",
       "paragraphs": [
         "O ruído que lhe deu nome depende de muitos animais movendo peças soltas de cerâmica ou outros detritos. Uma carapaça vazia não contém sino nem depósito de metal. O corpo apresenta variações de cor conforme lodo e idade, enquanto patas deixam riscos curtos nas bordas úmidas.",
         "Os caranguejos aproveitam matéria disponível e se abrigam sob obstáculos. Reunir cacos para atrair uma concentração apenas reproduz parte do ambiente; cria também um lugar que pode ferir pés e animais. Em 782, comparei uma margem limpa e outra coberta de descarte e encontrei distribuição diferente de pequenos habitantes, sem poder atribuí-la a uma única espécie.",
@@ -8688,7 +9020,7 @@
       "id": "natureza-recife-que-respira",
       "name": "Recife que respira",
       "category": "Natureza",
-      "summary": "É o nome dado a concentrações de pequenos animais aderidos à pedra.",
+      "summary": "Recife-que-respira é o nome dado na costa de Jacomb a concentrações de pequenos animais presos à pedra. Na baixa da água, muitas aberturas soltam jatos e produzem um som contínuo. A maré altera o contorno aparente da colônia.",
       "paragraphs": [
         "É o nome dado a concentrações de pequenos animais aderidos à pedra. Na baixa da água, muitas aberturas liberam jatos e produzem som contínuo. A impressão de um corpo único nasce da proximidade das partes. O conjunto abriga ainda organismos que não pertencem à colônia principal.",
         "Comparei desenhos do mesmo afloramento em marés distintas. A água e a areia mudavam seus contornos aparentes, sem exigir que a pedra se deslocasse. Permanecem relatos de mudanças depois de tormentas; alguns podem envolver quebra, recobrimento ou transporte de fragmentos. Não acompanhei eventos suficientes para encerrar a questão.",
@@ -8706,6 +9038,14 @@
         {
           "title": "Relações e cuidados",
           "text": "Arrancar uma placa para vender como curiosidade remove abrigo e deixa matéria exposta. O conhecimento dos pescadores permite escolher pontos de observação e reconhecer horários. A descrição de uma colônia não substitui a avaliação de corrente, ondas e piso da costa."
+        },
+        {
+          "title": "O que a maré permite observar",
+          "text": "Desenhos do mesmo afloramento em alturas de água diferentes ajudam a explicar por que o recife parece mudar de forma. As alterações relatadas depois de tormentas ainda admitem outras explicações. O conhecimento dos pescadores orienta a escolha do horário e do ponto de observação.",
+          "readingLinks": [
+            "jacomb",
+            "natureza-alga-de-fita-parda"
+          ]
         }
       ],
       "facts": {
@@ -9282,7 +9622,7 @@
       "id": "natureza-passaro-do-poente",
       "name": "Pássaro do poente",
       "category": "Natureza",
-      "summary": "Odran descreveu uma ave escura, de cauda comprida e canto crepuscular semelhante a flauta rachada.",
+      "summary": "Pássaro-do-poente é o nome provisório de uma ave escura de cauda comprida e canto crepuscular descrita por Odran. Desenhos recebidos de comerciantes divergem nas asas. A identidade da ave segue em aberto.",
       "paragraphs": [
         "Odran descreveu uma ave escura, de cauda comprida e canto crepuscular semelhante a flauta rachada. Dois desenhos recebidos por comerciantes mostram diferenças nas asas que podem resultar de idade, espécie ou mão do desenhista. Não examinei um exemplar vivo nem afirmo que todos os pássaros vendidos sob esse nome sejam iguais.",
         "O canto ao entardecer não demonstra nascimento do pôr do sol ou dependência de escuridão para sobreviver. O próprio relato antigo descreve manutenção em sala iluminada e fuga de gaiola. As folhas comerciais dizem mais sobre o desejo do comprador que sobre reprodução.",
@@ -9624,7 +9964,7 @@
       "id": "natureza-junco-de-fita",
       "name": "Junco-de-fita",
       "category": "Natureza",
-      "summary": "Folhas longas e relativamente planas, haste flexível e cabeça estreita de sementes permitem reconhecer a forma madura.",
+      "summary": "O junco-de-fita cresce em grupos nas margens e canais de Quinder. Suas folhas longas e flexíveis servem para esteiras, cestos e amarrações. A época de corte e a secagem afetam a resistência do material.",
       "paragraphs": [
         "Folhas longas e relativamente planas, haste flexível e cabeça estreita de sementes permitem reconhecer a forma madura. Nasce em grupos que prendem material trazido pela água. Uma faixa de juncos altera lentamente a borda de um canal e precisa ser acompanhada por quem o mantém.",
         "As folhas são utilizadas em esteiras, pequenos cestos e amarrações. Tempo de colheita, secagem e divisão das fibras afetam o resultado. Um feixe verde e um feixe preparado não suportam o mesmo trabalho. Há formas semelhantes que quebram cedo e recebem o mesmo nome no comércio.",
@@ -9726,7 +10066,7 @@
       "id": "natureza-arroz-de-varzea",
       "name": "Arroz de várzea",
       "category": "Natureza",
-      "summary": "Os cultivadores reconhecem tipos por duração do crescimento, resistência da haste e aspecto do grão.",
+      "summary": "Arroz-de-várzea é o nome usado para formas cultivadas que diferem em tempo de crescimento, resistência da haste e aspecto do grão. Em Quinder, o ciclo do cultivo acompanha o nível da água e depende da conservação de sementes para a safra seguinte.",
       "paragraphs": [
         "Os cultivadores reconhecem tipos por duração do crescimento, resistência da haste e aspecto do grão. Reúno essas formas sob um nome de alimento, deixando diferenças locais no caderno de sementes. A lâmina de água, o piso e a sequência de trabalho condicionam o campo.",
         "Depois da colheita, restos oferecem alimento e cobertura a pequenos animais. Aves acompanham certas etapas e se deslocam quando o nível muda. Um terreno que parece vazio entre safras continua participando de circulação de matéria e organismos.",
@@ -9978,7 +10318,7 @@
       "id": "natureza-resineira-negra",
       "name": "Resineira negra",
       "category": "Natureza",
-      "summary": "Casca escura, folhas estreitas e secreção aromática caracterizam a forma aqui desenhada em palavras.",
+      "summary": "A resineira-negra é descrita pela casca escura, pelas folhas estreitas e pela secreção aromática. Em Naerath, a coleta de resina abastece ofícios e envolve disputas por licenças, proteção da floresta e acesso a reservas comunitárias.",
       "paragraphs": [
         "Casca escura, folhas estreitas e secreção aromática caracterizam a forma aqui desenhada em palavras. Outros produtores de resina recebem nomes semelhantes. A matéria recolhida muda de aspecto com idade, mistura e aquecimento; uma peça limpa do mercado esconde parte dessa história.",
         "Resinas participam de iluminação, conservação de madeira e preparação de materiais. A retirada repetida de um mesmo ponto deixa feridas e pode comprometer a árvore. Coletores alternam áreas, examinam a cicatrização e distinguem produção espontânea de extração provocada.",
@@ -10173,7 +10513,7 @@
       "id": "natureza-raiz-ancora",
       "name": "Raiz-âncora",
       "category": "Natureza",
-      "summary": "Planta robusta de folhas compridas e sistema de raízes que se espalha lateralmente, prendendo solo entre as partes.",
+      "summary": "Raiz-âncora é um nome aplicado a plantas de raízes laterais que retêm solo em margens úmidas. Em Quinder, moradores conservam faixas dessa vegetação entre pontos de acesso à água para combinar circulação, proteção do solo e abrigo para animais.",
       "paragraphs": [
         "Planta robusta de folhas compridas e sistema de raízes que se espalha lateralmente, prendendo solo entre as partes. O nome reúne exemplares que parecem resistir ao arrancamento. Não significa que uma raiz isolada possa assegurar qualquer barranco.",
         "Os grupos crescem em relação com sedimento e circulação de água. Trechos erodidos podem apresentar raízes expostas que sobreviveram à perda do chão; isso não prova que a vegetação tenha causado o desmoronamento. Comparei marcas de cheias, cortes e passagem de animais antes de registrar a mudança.",
@@ -10224,7 +10564,7 @@
       "id": "natureza-musgo-de-roldana",
       "name": "Musgo de roldana",
       "category": "Natureza",
-      "summary": "Cresce em almofadas baixas de ramos muito pequenos, acumulando água entre as partes.",
+      "summary": "Musgo-de-roldana é o nome provisório de crescimentos baixos e úmidos observados junto a peças de serviço. Na madeira, essas almofadas retêm água e abrigam pequenos animais. Seu efeito depende do local e do uso da peça.",
       "paragraphs": [
         "Cresce em almofadas baixas de ramos muito pequenos, acumulando água entre as partes. A presença junto a peças de serviço originou o nome. A aparência verde à distância pode encobrir várias formas de crescimento, reunidas provisoriamente nos registros de oficina.",
         "Acompanhado sobre madeira, conserva umidade e abriga pequenos animais. Isso pode acelerar a perda de material que precisa permanecer seco. Sobre pedras afastadas das peças, o mesmo crescimento participa de outros usos do espaço. O organismo não muda de natureza ao passar da parede admirada à viga de manutenção.",
@@ -10876,7 +11216,7 @@
       "id": "natureza-bolor-do-saco-quente",
       "name": "Bolor do saco quente",
       "category": "Natureza",
-      "summary": "O nome de armazém cobre crescimentos claros, cinzentos ou escuros encontrados em sacos que aquecem e mudam de cheiro.",
+      "summary": "Bolor-do-saco-quente é um nome de armazém para crescimentos variados encontrados em sacos que aquecem e mudam de cheiro. Os registros associam os danos tanto às condições do depósito quanto à umidade anterior à guarda.",
       "paragraphs": [
         "O nome de armazém cobre crescimentos claros, cinzentos ou escuros encontrados em sacos que aquecem e mudam de cheiro. A variedade de formas impede reconhecer uma causa única pela cor. A parte visível pode representar apenas uma fração do material alterado.",
         "Separei lotes e registrei entrada, chuva, posição e ventilação. Os danos se relacionavam tanto ao estado anterior à guarda quanto ao depósito. Mudar os sacos de lugar sem resolver a origem da umidade podia espalhar material e adiar a descoberta das perdas.",
@@ -11996,7 +12336,7 @@
       "id": "narel",
       "name": "Narel",
       "category": "Personagens",
-      "summary": "Irmão de Nyssara Veyl, conhece o reconhecimento de objetos e mercadorias e procura escolher seu próprio caminho.",
+      "summary": "Narel é irmão de Nyssara Veyl e conhece o reconhecimento de objetos e mercadorias. Sua correspondência menciona uma expedição à região de Lombonia. Seu desaparecimento levou Nyssara a investigar a viagem.",
       "paragraphs": [
         "Irmão de Nyssara Veyl, conhece o reconhecimento de objetos e mercadorias e procura escolher seu próprio caminho. Sua correspondência menciona uma expedição à região de Lombonia.",
         "O desaparecimento motiva a busca da irmã."
@@ -14388,7 +14728,7 @@
       "id": "oleakes",
       "name": "Oleakes",
       "category": "Povos",
-      "summary": "Os ancestrais dos oleakes eram os Olek de Eomundus, ligados ao abrigo e à vigilância comunitária.",
+      "summary": "Os oleakes são descendentes dos Olek de Eomundus que chegaram às terras baixas de Virtude na transição para a II Era. Em Oleakia, a memória da chegada está ligada à manutenção de refúgios e à prática de repartir reservas entre vários depósitos.",
       "facts": {
         "Referência temporal": "Início de 788 da III Era",
         "Origem": "Olek de Eomundus; origem independente da linhagem Eldenari",
@@ -14612,7 +14952,7 @@
       "id": "tessik-veio-frio",
       "name": "Tessik do Veio Frio",
       "category": "Povos",
-      "summary": "Comunidade kobold ligada a túneis de galerias na região de Juu Daixo.",
+      "summary": "Tessik do Veio Frio é uma comunidade kobold ligada às galerias de Juu Daixo. Sua prática documentada de leitura da água e dos túneis combina conhecimento do terreno, interpretação de instrumentos e acordos de acesso.",
       "facts": {
         "Tipo": "Comunidade kobold",
         "Porta-voz": "Sirr-Vek",
@@ -14653,7 +14993,7 @@
       "id": "avo-gotejo",
       "name": "Avô do Gotejo",
       "category": "Natureza",
-      "summary": "Nome de um troll de cavernas associado a uma galeria de serviço; sua idade não é conhecida.",
+      "summary": "Avô Gotejo é o nome que trabalhadores dão a um troll de cavernas associado a uma galeria de serviço. Os relatos mencionam crostas calcárias no dorso e rápida regeneração em tecidos menos feridos. A idade do troll permanece desconhecida.",
       "facts": {
         "Tipo": "Indivíduo nomeado na narrativa",
         "Ambiente": "Cavernas e galerias",
@@ -16258,7 +16598,7 @@
     {
       "id": "caminho-alto",
       "name": "Caminho Alto",
-      "summary": "Subida serrana entre Valada e Juu Daixo.",
+      "summary": "O Caminho Alto é a travessia serrana que liga Valada, na Rácia, a Juu Daixo, na Cávia. Por ela circulam cargas e viajantes entre o interior da Rácia e os caminhos que descem ao porto de Trogu.",
       "category": "Lugares",
       "paragraphs": [
         "O Caminho Alto atravessa os Montes de Juu Daixo e liga Valada, na Rácia, a Juu Daixo, na Cávia. É uma rota de trabalho e abastecimento. Em Valada, o Guia recomenda conferir ferragens, amarrações, cascos e provisões antes de subir."
@@ -16285,6 +16625,16 @@
             "chapter": 91,
             "record": "RC-VF02"
           }
+        },
+        {
+          "title": "O Caminho Alto no percurso regional",
+          "text": "Em Valada, a travessia se separa da estrada que desce a Ihfarilse e Atlante. Depois de Juu Daixo, o caminho segue para Trogu no Mar de Lombonia. As condições da serra tornam a etapa de carga mais lenta que a de um grupo leve.",
+          "readingLinks": [
+            "valada",
+            "juu-daixo",
+            "trogu",
+            "atlante"
+          ]
         }
       ],
       "facts": {
@@ -16303,7 +16653,8 @@
         "carvao",
         "montes-juu-daixo",
         "viagens-condicoes",
-        "distancia-recursos-limites"
+        "distancia-recursos-limites",
+        "atlante"
       ],
       "image": "v28-caminho-alto",
       "spoiler": null,
@@ -16326,7 +16677,7 @@
       "id": "guerreiros",
       "name": "Guilda dos Guerreiros",
       "category": "Organizações",
-      "summary": "As casas de contrato oferecem escolta, resgate, proteção de obras e controle de ameaças.",
+      "summary": "A Guilda dos Guerreiros reúne casas que oferecem escolta, resgate e proteção de obras por contrato. A rede cresceu após a fragmentação imperial, quando contratar proteção através das novas fronteiras exigia acordos entre casas locais.",
       "paragraphs": [
         "A rede nasceu da necessidade de contratar proteção através das fronteiras que surgiram com a fragmentação imperial. Casas locais antecederam o reconhecimento da filiação entre reinos.",
         "As casas de contrato oferecem escolta, resgate, proteção de obras e controle de ameaças. Mantêm depósitos e intermedeiam disputas de pagamento. Na Heria, a disputa com os Heróis entre 163 e 191 expôs cobranças indevidas e a diferença de recursos entre as duas redes."
@@ -16337,8 +16688,12 @@
           "text": "A rede nasceu da necessidade de contratar proteção através das fronteiras que surgiram com a fragmentação imperial. Casas locais antecederam o reconhecimento da filiação entre reinos."
         },
         {
-          "title": "Atividades",
-          "text": "As casas de contrato oferecem escolta, resgate, proteção de obras e controle de ameaças. Mantêm depósitos e intermedeiam disputas de pagamento. Na Heria, a disputa com os Heróis entre 163 e 191 expôs cobranças indevidas e a diferença de recursos entre as duas redes."
+          "title": "Proteção, pagamento e disputa",
+          "text": "As casas mantêm depósitos, organizam serviços e intermedeiam disputas de pagamento. Entre 163 e 191 da III Era, a disputa com os Heróis em Heria expôs cobranças indevidas e a diferença de recursos entre as redes.",
+          "readingLinks": [
+            "heria",
+            "herois"
+          ]
         },
         {
           "title": "Uso e acesso à mana",
@@ -16373,7 +16728,7 @@
       "id": "herois",
       "name": "Guilda dos Heróis",
       "category": "Organizações",
-      "summary": "A guilda ganhou prestígio por socorrer comunidades entre 150 e 200.",
+      "summary": "A Guilda dos Heróis surgiu em Heria quando Ademar Valcor abandonou um contrato dos Guerreiros que exigia expulsar trabalhadores endividados. A guilda subordinou o serviço a juramentos e ganhou prestígio pelo socorro a comunidades entre 150 e 200 da III Era.",
       "paragraphs": [
         "Ademar Valcor fundou a guilda em Heria depois de abandonar um contrato dos Guerreiros que exigia expulsar trabalhadores endividados. A nova organização subordinou o serviço a juramentos e recusou contratos considerados injustos.",
         "A guilda ganhou prestígio por socorrer comunidades entre 150 e 200. Em 788 conserva casas locais e arquivos de juramentos. Ysenda Corval administra um abrigo na fronteira de Heria, exemplo do trabalho que a rede ainda sustenta."
@@ -16384,8 +16739,13 @@
           "text": "Ademar Valcor fundou a guilda em Heria depois de abandonar um contrato dos Guerreiros que exigia expulsar trabalhadores endividados. A nova organização subordinou o serviço a juramentos e recusou contratos considerados injustos."
         },
         {
-          "title": "Atividades",
-          "text": "A guilda ganhou prestígio por socorrer comunidades entre 150 e 200. Em 788 conserva casas locais e arquivos de juramentos. Ysenda Corval administra um abrigo na fronteira de Heria, exemplo do trabalho que a rede ainda sustenta."
+          "title": "Do juramento ao abrigo",
+          "text": "As casas locais guardam juramentos e organizam socorro. No início de 788, o abrigo administrado por Ysenda Corval na fronteira de Heria mostra o que esse serviço exige na prática: acolher, transportar pessoas e acompanhar a recuperação.",
+          "readingLinks": [
+            "ysenda-corval",
+            "heria",
+            "guerreiros"
+          ]
         },
         {
           "title": "Uso e acesso à mana",
@@ -16421,28 +16781,36 @@
       "id": "magos",
       "name": "Guilda dos Magos",
       "category": "Organizações",
-      "summary": "Mantém ensino urbano e laboratórios de ofício.",
+      "summary": "A Guilda dos Magos é uma rede de ensino e laboratórios urbanos organizada por Edria Venn e outros pesquisadores independentes. Seu trabalho inclui técnicas de cura, proteção contra incêndios e irrigação. A Carta dos Ensaios Compartilhados, de 298 da III Era, orienta o registro de testes nas oficinas participantes.",
       "paragraphs": [
         "Edria Venn e outros pesquisadores independentes organizaram a guilda para permitir ensino e estudo fora da tutela da Ordem. A disputa envolvia tanto os riscos das oficinas quanto o acesso à formação.",
         "Mantém ensino urbano e laboratórios de ofício. Entre as aplicações registradas estão tratamentos, proteção contra incêndios e instrumentos de irrigação. Acidentes em oficinas sem proteção adequada alimentaram o debate sobre segurança."
       ],
       "sections": [
         {
-          "title": "Histórico",
-          "text": "Edria Venn e outros pesquisadores independentes organizaram a guilda para permitir ensino e estudo fora da tutela da Ordem. A disputa envolvia tanto os riscos das oficinas quanto o acesso à formação."
+          "title": "Por que surgiu uma rede urbana de ensino",
+          "text": "Edria Venn e outros pesquisadores buscaram ampliar o acesso à formação fora da tutela da Ordem dos Magos. O ensino urbano organizado desde 286 da III Era abriu espaço para aprendizes e oficinas. Acidentes em instalações com proteção insuficiente tornaram a segurança parte da disputa sobre como ensinar.",
+          "readingLinks": [
+            "ordem",
+            "carta-ensaios-compartilhados"
+          ]
         },
         {
           "title": "Atividades",
           "text": "Mantém ensino urbano e laboratórios de ofício. Entre as aplicações registradas estão tratamentos, proteção contra incêndios e instrumentos de irrigação. Acidentes em oficinas sem proteção adequada alimentaram o debate sobre segurança."
         },
         {
-          "title": "Ensaios compartilhados",
-          "text": "A Carta dos Ensaios Compartilhados de 298 da III Era desenvolveu registro de condições e interrupções em oficinas participantes. O compromisso acompanhava a expansão do ensino urbano organizado desde 286, sem dar à guilda autoridade sobre toda prática de mana.",
+          "title": "O que a carta permite conferir",
+          "text": "A Carta dos Ensaios Compartilhados orienta as oficinas participantes a registrar condições, resultados e interrupções. Um aprendiz pode retomar um ensaio em condições comparáveis e identificar onde o procedimento deixou de ser seguro. A aplicação da carta depende da adesão das oficinas.",
           "sourceRef": {
             "source": "RG218",
             "chapter": 70,
             "record": "RC-CV04"
-          }
+          },
+          "readingLinks": [
+            "carta-ensaios-compartilhados",
+            "oficinas-responsabilidade"
+          ]
         },
         {
           "title": "Uso e acesso à mana",
@@ -16477,7 +16845,7 @@
       "id": "ladroes",
       "name": "Guilda dos Ladrões",
       "category": "Organizações",
-      "summary": "A rede atua com apostas clandestinas, contrabando, falsificação, extorsão e circulação de informações.",
+      "summary": "A Guilda dos Ladrões reúne grupos que negociam informações e atuam em apostas clandestinas, contrabando, falsificação e extorsão. Em Ihfarilse, Mavra Senn mantém relações com comerciantes, intermediários e a Guilda do Vento Arcano.",
       "paragraphs": [
         "A guilda reúne grupos com interesses diversos. Em Ihfarilse, sua dirigente Mavra Senn mantém uma rede que negocia com comerciantes e intermediários.",
         "A rede atua com apostas clandestinas, contrabando, falsificação, extorsão e circulação de informações. Mavra mantém um fundo para famílias de agentes e usa o auxílio para cobrar obediência. Sua rede troca informações e fornecedores com a Guilda do Vento Arcano."
@@ -16488,8 +16856,13 @@
           "text": "A guilda reúne grupos com interesses diversos. Em Ihfarilse, sua dirigente Mavra Senn mantém uma rede que negocia com comerciantes e intermediários."
         },
         {
-          "title": "Atividades",
-          "text": "A rede atua com apostas clandestinas, contrabando, falsificação, extorsão e circulação de informações. Mavra mantém um fundo para famílias de agentes e usa o auxílio para cobrar obediência. Sua rede troca informações e fornecedores com a Guilda do Vento Arcano."
+          "title": "Como Mavra sustenta sua rede",
+          "text": "Mavra mantém um fundo para famílias de agentes. O auxílio cria uma obrigação que ela pode cobrar dos beneficiários. A rede também troca informações e fornecedores com a organização das corridas de Ihfarilse.",
+          "readingLinks": [
+            "mavra-senn",
+            "ihfarilse",
+            "vento"
+          ]
         },
         {
           "title": "Uso e acesso à mana",
@@ -16527,23 +16900,40 @@
       "id": "vento",
       "name": "Guilda do Vento Arcano",
       "category": "Organizações",
-      "summary": "Em 788 Brennik Talv conduz a organização.",
+      "summary": "A Guilda do Vento Arcano organiza o circuito de corridas de vórtics da Rácia. As competições nasceram nas oficinas e ganharam organização permanente com a carta real de 438 da III Era. Em 788, Brennik Talv conduz um circuito de dez provas anuais.",
       "paragraphs": [
         "As oficinas da Rácia desenvolveram os vortics a partir de plataformas movidas a mana. As primeiras competições deram origem a um circuito organizado, anterior à carta da guilda.",
         "Em 788 Brennik Talv conduz a organização. O circuito reúne dez provas anuais, vinte pilotos e dez equipes. Ingressos e apostas sustentam receitas e empregos, enquanto multas acessíveis às equipes ricas limitam o efeito de certas regras."
       ],
       "sections": [
         {
-          "title": "Histórico",
-          "text": "As oficinas da Rácia desenvolveram os vortics a partir de plataformas movidas a mana. As primeiras competições deram origem a um circuito organizado, anterior à carta da guilda."
+          "title": "Das oficinas à carta real",
+          "text": "As oficinas da Rácia desenvolveram vórtics a partir de plataformas movidas a mana. Em Ihfarilse, associações organizaram em 412 o precursor das corridas. A carta real de 438 deu continuidade à organização. Ihfarilse, Valada e Atlante abrigam pistas cujos terrenos e condições exigem ajustes diferentes.",
+          "readingLinks": [
+            "racia",
+            "ihfarilse",
+            "pista-ihfarilse",
+            "pista-valada",
+            "pista-atlante"
+          ]
         },
         {
-          "title": "Atividades",
-          "text": "Em 788 Brennik Talv conduz a organização. O circuito reúne dez provas anuais, vinte pilotos e dez equipes. Ingressos e apostas sustentam receitas e empregos, enquanto multas acessíveis às equipes ricas limitam o efeito de certas regras."
+          "title": "Quem financia e quem faz o circuito funcionar",
+          "text": "Em 788, vinte pilotos competem por dez equipes. Ingressos e apostas ajudam a sustentar receitas e empregos. Oficinas preparam os veículos, e as inspeções vinculam a segurança às regras da competição. Quando uma multa pesa pouco no orçamento de uma equipe rica, a mesma regra produz incentivos diferentes entre os competidores.",
+          "readingLinks": [
+            "temporada-vortics-788",
+            "vortics",
+            "sera"
+          ]
         },
         {
-          "title": "Uso e acesso à mana",
-          "text": "Instrumentação de Ar e outros caminhos em plataformas e vórtics. Sustentação e direção dependem do chassi, da carga, do piloto e do ajuste da oficina. O circuito envolve inspeção, manutenção e disputa sobre o acesso a recursos."
+          "title": "Fornecedores, informação e controle",
+          "text": "A sustentação e a direção dependem do chassi, da carga, do ajuste e da habilidade do piloto. Acesso a materiais e manutenção influencia quem consegue competir. Em Ihfarilse, a rede de Mavra Senn troca informações e fornecedores com a Guilda do Vento Arcano.",
+          "readingLinks": [
+            "vortics",
+            "ladroes",
+            "mavra-senn"
+          ]
         }
       ],
       "facts": {
@@ -16571,7 +16961,8 @@
         "tali-rovel",
         "ian-seral",
         "magia",
-        "oficinas-responsabilidade"
+        "oficinas-responsabilidade",
+        "mavra-senn"
       ],
       "image": "v27-vortics",
       "imageAlt": "Preparação de um vortic em teste de levitação baixa na oficina",
@@ -16592,7 +16983,7 @@
       "id": "carvao",
       "name": "Confraria do Carvão e do Ferro",
       "category": "Organizações",
-      "summary": "A negociação coletiva melhorou as condições dos associados.",
+      "summary": "A confraria de Juu Daixo reúne fornecedores de combustível, transportadores e donos de pequenas oficinas. A negociação coletiva melhorou sua posição diante dos compradores e abriu uma disputa sobre o direito de vender de produtores externos.",
       "paragraphs": [
         "Fornecedores de combustível, transportadores e donos de pequenas oficinas formaram a associação em Juu Daixo para melhorar sua posição diante de grandes compradores.",
         "A negociação coletiva melhorou as condições dos associados. A confraria depois tentou restringir a venda por produtores externos. Em 782, Ressa Olm aparece como dirigente em uma denúncia registrada na História Geral."
@@ -18730,7 +19121,7 @@
     {
       "id": "concordata-de-vaelen",
       "name": "Concordata de Vaelen",
-      "summary": "O acordo de 2431 reconheceu os sucessores do Império e encerrou a II Era.",
+      "summary": "A Concordata de Vaelen, firmada em 2431 da II Era, encerrou a guerra sucessória de Vaelen Endor ao reconhecer os governos sucessores e negociar dívidas, arquivos, depósitos e direitos de passagem. O ano seguinte tornou-se o primeiro da III Era.",
       "category": "História",
       "sections": [
         {
@@ -18745,6 +19136,14 @@
             "chapter": 66,
             "record": "RC-PV03"
           }
+        },
+        {
+          "title": "Dois acordos da crise imperial",
+          "text": "O Acordo das Lâmpadas, firmado dois anos antes, tratava da Torre de Samarith sob o governo instalado pela conquista de Quinder. A Concordata tratou da sucessão imperial e dos compromissos que os novos governos herdaram.",
+          "readingLinks": [
+            "evento-ev-032",
+            "guerra-sucessao-endor"
+          ]
         }
       ],
       "paragraphs": [
@@ -18755,7 +19154,9 @@
         "Referência": "História política de Vaelen Endor"
       },
       "related": [
+        "guerra-sucessao-endor",
         "imperio-vaelen-endor",
+        "evento-ev-031",
         "evento-ev-033",
         "casas-reinos-sucessores",
         "alena-veldan",
@@ -19958,7 +20359,7 @@
       "name": "Vaela Endorin",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Vaela Endorin organizou a liga de abastecimento e foi a primeira imperatriz de Vaelen Endor, com governo reconhecido de 1896 a 1938 da II Era.",
+      "summary": "Vaela Endorin organizou uma liga de abastecimento e tornou-se a primeira imperatriz de Vaelen Endor em 1896 da II Era. Governou até 1938. Sua trajetória liga as negociações por circulação e suprimentos à formação da autoridade imperial.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -21148,7 +21549,7 @@
       "name": "Odravel IV",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Odravel IV governou o Império de Vaelen Endor no período de 2394–2418 da II Era.",
+      "summary": "Odravel IV governou Vaelen Endor entre 2394 e 2418 da II Era. Financiou o Projeto do Segundo Amanhecer em busca de instrumentos para antecipar campanhas e colheitas. Sua morte, sem um sucessor reconhecido em comum, abriu a disputa pelo comando imperial.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -21536,7 +21937,7 @@
       "name": "Vaeliss Sareth",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Vaeliss Sareth: Rainha de Naerath, responsável pelas campanhas de 2424–2428.",
+      "summary": "Vaeliss Sareth foi a rainha de Naerath que conduziu as campanhas de 2424–2428 da II Era. A crise sucessória imperial abriu caminho para a conquista de Quinder. A negociação com Calven III deu ao novo governo condições de manter a Torre de Samarith em atividade.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -21545,6 +21946,16 @@
         {
           "title": "Participação na história",
           "text": "Vaeliss Sareth iniciou em 2424 as campanhas que retirariam Quinder do domínio imperial em 2428. A rainha de Naerath alegou proteção de santuários de Eilistraee e comunidades ameaçadas pelos combates. A proteção teve fundamento em lugares concretos. A campanha também expulsou famílias humanas e tomou patrimônio."
+        },
+        {
+          "title": "Da conquista ao governo",
+          "text": "Vaeliss apresentou a campanha como proteção a comunidades e santuários ameaçados. A vitória também ampliou a posição territorial de Naerath. Em Samarith, o governo precisou negociar a continuidade de santuários e peregrinações com Calven III.",
+          "readingLinks": [
+            "naerath",
+            "evento-ev-031",
+            "evento-ev-032",
+            "calven-iii"
+          ]
         }
       ],
       "paragraphs": [
@@ -21561,9 +21972,12 @@
         "Povo": "Elfa negra"
       },
       "related": [
+        "naerath",
+        "evento-ev-031",
+        "evento-ev-032",
+        "calven-iii",
         "imperio-vaelen-endor",
         "pessoas-da-historia-imperial",
-        "evento-ev-031",
         "provincia-quinder"
       ],
       "image": "imperial-vaeliss-sareth",
@@ -21595,7 +22009,7 @@
       "name": "Calven III",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Calven III: Grande Pombo que permaneceu em Samarith e negociou em 2429.",
+      "summary": "Calven III era o Grande Pombo quando Naerath conquistou Quinder em 2428 da II Era. Permaneceu em Samarith e negociou o Acordo das Lâmpadas de 2429, que protegeu a continuidade do culto e da peregrinação sob o novo governo.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -21660,7 +22074,7 @@
       "name": "Nerissa Sareth",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Nerissa Sareth: Sucessora de Vaeliss; independência de Quinder após a Guerra das Duas Cortes.",
+      "summary": "Nerissa Sareth foi a governante de Quinder que consolidou a independência do reino em 74 da III Era. Sua recusa em manter as remessas de receita exigidas por Naerath abriu a Guerra das Duas Cortes. A vitória preservou o Acordo das Lâmpadas.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -21678,6 +22092,15 @@
             "chapter": 90,
             "record": "RC-CH03"
           }
+        },
+        {
+          "title": "O que mudou com sua vitória",
+          "text": "A arrecadação passou a sustentar uma monarquia independente. Os compromissos da Torre continuaram em vigor, e as reivindicações de famílias expulsas na conquista permaneceram abertas.",
+          "readingLinks": [
+            "evento-ev-037",
+            "evento-ev-032",
+            "quinder"
+          ]
         }
       ],
       "paragraphs": [
@@ -21694,12 +22117,13 @@
         "Povo": "Elfa negra"
       },
       "related": [
+        "evento-ev-037",
+        "evento-ev-032",
+        "quinder",
         "imperio-vaelen-endor",
         "pessoas-da-historia-imperial",
-        "evento-ev-037",
         "provincia-quinder",
         "evento-ev-031",
-        "evento-ev-032",
         "selyra"
       ],
       "image": "imperial-nerissa-sareth",
@@ -22738,7 +23162,7 @@
       "name": "Maela Torr",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Maela Torr: Governadora ligada ao Termo de Guarda das Receitas de Trogu em 2422; representante de depósitos na conferência final.",
+      "summary": "Maela Torr foi governadora ligada à gestão dos depósitos de Trogu na crise final do Império. Em 2422 da II Era, condicionou remessas à confirmação de escoltas. Na conferência final, representou interesses ligados aos depósitos.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -24220,7 +24644,7 @@
       "name": "Enna Vossel",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Enna Vossel: Jurista da Concordata de 2431.",
+      "summary": "Enna Vossel foi uma jurista que participou da negociação da Concordata de Vaelen, em 2431 da II Era. A conferência tratou dos compromissos que os governos sucessores herdariam, incluindo dívidas e documentos.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -24307,7 +24731,7 @@
       "name": "Dorven Keld",
       "category": "Personagens",
       "personGroup": "Figuras históricas",
-      "summary": "Dorven Keld: Mediador anão na Concordata de 2431.",
+      "summary": "Dorven Keld foi um mediador anão nas negociações da Concordata de Vaelen, em 2431 da II Era. Sua atuação pertence à conferência que definiu o tratamento de obrigações e direitos após a guerra sucessória.",
       "sections": [
         {
           "title": "Perfil e atuação",
@@ -26228,7 +26652,7 @@
       "eventIds": [
         "EV-021"
       ],
-      "summary": "Em Samarith, a sacerdotisa Elen Sar, devota de Eleanora, reuniu santuários que acolhiam refugiados.",
+      "summary": "O Concílio das Sete Portas, reunido em Samarith em 1398 da II Era, organizou a comunhão dos Sete e instituiu o cargo de Grande Pombo. A sacerdotisa Elen Sar articulou o encontro a partir de uma rede de santuários que acolhiam refugiados.",
       "facts": {
         "Data": "1398 da II Era",
         "Era": "II Era",
@@ -26240,12 +26664,12 @@
       "paragraphs": [],
       "sections": [
         {
-          "title": "Data e natureza do registro",
-          "text": "Contagem reconhecida nos santuários de Samarith. A data segue a contagem da era indicada nas fontes de referência."
+          "title": "Os santuários antes do Concílio",
+          "text": "Elen Sar, sacerdotisa de Eleanora, reuniu santuários que já acolhiam refugiados. A cooperação dava a essas comunidades meios de encaminhar pedidos de mantimentos e de cessar-fogo entre lugares sitiados. As aves que levavam as mensagens deram nome ao cargo que passaria a coordenar a comunhão."
         },
         {
-          "title": "Relato e contexto",
-          "text": "Em Samarith, a sacerdotisa Elen Sar, devota de Eleanora, reuniu santuários que acolhiam refugiados. No ano 1398, o Concílio das Sete Portas estabeleceu a comunhão de Ardanus, Nancy, Eleanora, Viormund, Tívaro, Merovél e Nereth. Seu sumo sacerdote recebeu o título de Grande Pombo, em memória das aves usadas para levar pedidos de alimento e cessar-fogo entre comunidades sitiadas. O título conservou uma origem humilde mesmo quando seus ocupantes passaram a disputar coroas.",
+          "title": "A fundação da comunhão",
+          "text": "O Concílio reuniu as devoções a Ardanus, Nancy, Eleanora, Viormund, Tívaro, Merovél e Nereth. Ao reconhecer um sumo sacerdote comum, os santuários ganharam uma instância de coordenação que também podia mediar conflitos e negociar com autoridades civis.",
           "sourceRef": {
             "source": "HG",
             "page": 30
@@ -26269,14 +26693,23 @@
             "chapter": 93,
             "record": "RC-REL04"
           }
+        },
+        {
+          "title": "Da fundação às garantias de 2429",
+          "text": "Quando Naerath conquistou Quinder, a posição que a comunhão havia conquistado em Samarith deu a Calven III condições para negociar a permanência da Torre.",
+          "readingLinks": [
+            "evento-ev-031",
+            "evento-ev-032"
+          ]
         }
       ],
       "related": [
+        "elen-sar",
         "samarith",
+        "grande-pombo",
+        "evento-ev-032",
         "formacao-primeiros-poderes",
         "nara-sete-celeiros",
-        "elen-sar",
-        "grande-pombo",
         "religiao-virtude"
       ],
       "image": "v07-samarith",
@@ -26318,7 +26751,7 @@
       "eventIds": [
         "EV-022"
       ],
-      "summary": "O Ajuste das Margens de 1546 impôs fiscalização compartilhada e limites às prioridades vendidas; a liga preservou acesso à água, mas não recuperou todas as cidades perdidas.",
+      "summary": "A Guerra dos Diques (1517–1546 da II Era) opôs a Companhia das Comportas a uma liga de cidades e comunidades da bacia do Taoju e do Asmarith. A venda de prioridade no acesso à água agravou a disputa. O Ajuste das Margens encerrou a guerra com limites à cobrança e fiscalização compartilhada.",
       "facts": {
         "Data": "1517-1546 da II Era",
         "Era": "II Era",
@@ -26403,15 +26836,24 @@
             "source": "RG222",
             "chapter": 86
           }
+        },
+        {
+          "title": "Quinder antes do Império",
+          "text": "A guerra ajuda a entender por que o controle da irrigação se tornou uma questão de governo na região. O conflito ocorreu séculos antes da incorporação imperial de 1896, quando as cidades ainda negociavam sob outras autoridades.",
+          "readingLinks": [
+            "quinder",
+            "xeo-taoju",
+            "samarith"
+          ]
         }
       ],
       "related": [
         "quinder",
-        "imperio-vaelen-endor",
-        "xeo-taoju",
         "samarith",
-        "dorgamar",
+        "xeo-taoju",
         "marel-tovan",
+        "imperio-vaelen-endor",
+        "dorgamar",
         "berik-oss",
         "tervan-rell",
         "guerras-conflitos",
@@ -26683,7 +27125,7 @@
       "eventIds": [
         "EV-024"
       ],
-      "summary": "A liga venceu e conservou tropas, depósitos e receitas; a proclamação imperial de Vaela em 1896 sucedeu à guerra.",
+      "summary": "A Guerra das Correntes (1881–1895 da II Era) começou em meio a pedágios concorrentes e à recusa de recibos comuns, que dificultavam o abastecimento entre cidades. A vitória da liga permitiu unificar parte da administração militar e fiscal e abriu caminho para a expansão imperial.",
       "facts": {
         "Data": "1881-1895 da II Era",
         "Era": "II Era",
@@ -27410,7 +27852,7 @@
       "eventIds": [
         "EV-031"
       ],
-      "summary": "Naerath conquistou Quinder em 2428; o Acordo das Lâmpadas de 2429 preservou Calven III e garantias de culto, sem restituir todas as famílias expulsas.",
+      "summary": "A conquista de Quinder por Naerath foi uma campanha conduzida por Vaeliss Sareth entre 2424 e 2428 da II Era. A crise sucessória de Vaelen Endor dificultou o socorro imperial. Naerath tomou Quinder, e o novo governo negociou no ano seguinte a permanência da Torre de Samarith.",
       "facts": {
         "Data": "2424-2428 da II Era",
         "Era": "II Era",
@@ -27426,8 +27868,8 @@
       "paragraphs": [],
       "sections": [
         {
-          "title": "O contexto da invasão",
-          "text": "A disputa de sucessão retirou de Quinder a perspectiva de receber apoio central regular. Vaeliss Sareth apresentava sua força como proteção a comunidades e santuários ameaçados. A campanha também ampliava a receita e a posição territorial de Naerath. Casas locais avaliaram submissão, resistência e retirada conforme os custos que cada opção impunha a suas pessoas e propriedades.",
+          "title": "Por que Naerath avançou",
+          "text": "A guerra sucessória deixou as guarnições de Quinder com pouca perspectiva de receber apoio regular. Vaeliss Sareth apresentou a intervenção como proteção a comunidades e santuários ameaçados. O avanço também deu a Naerath a possibilidade de ampliar sua arrecadação e sua presença territorial. As casas de Quinder avaliaram se resistir, negociar ou retirar suas famílias lhes daria melhores condições de preservar vidas e bens.",
           "sourceRef": {
             "source": "RG213",
             "chapter": 52,
@@ -27453,8 +27895,8 @@
           }
         },
         {
-          "title": "O acordo com Calven III",
-          "text": "Em Samarith, Calven III recusou abandonar a Torre. O Acordo das Lâmpadas de 2429 garantiu sua permanência, circulação de peregrinos e proteção formal dos santuários em troca do reconhecimento do novo governo. A acomodação preservou convivência institucional sem apagar o custo da campanha. Quinder permaneceu ligado a Naerath até a Guerra das Duas Cortes, já na III Era.",
+          "title": "Da ocupação ao Acordo das Lâmpadas",
+          "text": "Calven III permaneceu na Torre de Samarith e negociou com o governo conquistador. Em 2429, o Acordo das Lâmpadas protegeu a circulação de peregrinos, os santuários e o cargo do Grande Pombo, que reconheceu o novo governo. A permanência da comunhão e a restituição de propriedades seguiram caminhos distintos.",
           "sourceRef": {
             "source": "RG213",
             "chapter": 52,
@@ -27486,17 +27928,27 @@
             "source": "RG222",
             "chapter": 86
           }
+        },
+        {
+          "title": "Da conquista à independência",
+          "text": "Os registros da ocupação continuaram a servir de prova em disputas por terra. Já na III Era, a Guerra das Duas Cortes mudou a autoridade civil que julgava essas reivindicações.",
+          "readingLinks": [
+            "evento-ev-032",
+            "evento-ev-037"
+          ]
         }
       ],
       "related": [
-        "quinder",
+        "guerra-sucessao-endor",
         "vaeliss-sareth",
-        "calven-iii",
+        "quinder",
         "samarith",
+        "evento-ev-032",
+        "evento-ev-037",
+        "calven-iii",
         "valerith",
         "naerath",
         "ilvess-nor",
-        "guerra-sucessao-endor",
         "guerras-conflitos",
         "maeressa-endorin",
         "aldren-veyr",
@@ -27672,7 +28124,7 @@
       "eventIds": [
         "EV-032"
       ],
-      "summary": "O Acordo das Lâmpadas foi firmado em 2429.",
+      "summary": "O Acordo das Lâmpadas, firmado em 2429 da II Era, regulou a permanência da Torre de Samarith após a conquista de Quinder por Naerath. Calven III reconheceu o novo governo em troca de garantias para o culto, os arquivos, os santuários e a circulação de peregrinos.",
       "facts": {
         "Data": "2429 da II Era",
         "Era": "II Era",
@@ -27684,12 +28136,12 @@
       "paragraphs": [],
       "sections": [
         {
-          "title": "Data e natureza do registro",
-          "text": "Instrumento preservado em Samarith. A data segue a contagem da era indicada nas fontes de referência."
+          "title": "Por que a permanência da Torre estava em disputa",
+          "text": "A conquista de 2428 mudou o governo de Quinder. Calven III permaneceu em Samarith, onde a comunhão dos Sete guardava arquivos e recebia peregrinos. A saída do Grande Pombo teria consequências para os santuários e para os moradores que viviam do trânsito religioso. Parte do clero de Eilistraee defendia o dever de amparar visitantes de outros cultos."
         },
         {
-          "title": "Relato e contexto",
-          "text": "O Acordo das Lâmpadas foi firmado em 2429. Reconheceu o novo governo e garantiu a permanência do Grande Pombo. As cláusulas permitiam uma convivência institucional duradoura. Famílias expulsas continuaram reivindicando terras; a proteção do culto não resolvia automaticamente direitos de propriedade.",
+          "title": "As condições do acordo",
+          "text": "A comunhão conservou suas competências religiosas e recebeu garantias para culto, arquivos, santuários e peregrinação. O governo civil reteve a soberania. O pacto previu limites à presença de tropas no recinto, regras para procissões e escoltas e o compromisso de manter a Torre fora de operações de reconquista. As famílias expulsas durante a campanha continuaram a apresentar reivindicações patrimoniais.",
           "sourceRef": {
             "source": "VE",
             "page": 45
@@ -27697,18 +28149,32 @@
           "excerpt": true
         },
         {
-          "title": "O cargo do Grande Pombo",
-          "text": "O Grande Pombo é o sumo sacerdote da comunhão dos Sete. O cargo nasce no Concílio de 1398 da II Era, recebe garantias de permanência no Acordo das Lâmpadas de 2429 e é ocupado por Calven IX no início de 788.",
+          "title": "A vigência após a independência",
+          "text": "A vitória de Nerissa Sareth em 74 da III Era preservou o pacto. No início de 788, ele continua a organizar a convivência entre a autoridade religiosa de Calven IX e o governo civil de Selyra Naereth.",
           "sourceRef": {
             "source": "RG227",
             "chapter": 93,
             "record": "RC-REL04"
           }
+        },
+        {
+          "title": "O acordo na história de Quinder",
+          "text": "A conquista explica por que as garantias foram negociadas. A Guerra das Duas Cortes explica por que elas continuaram em vigor sob uma monarquia independente.",
+          "readingLinks": [
+            "evento-ev-031",
+            "evento-ev-037",
+            "grande-pombo"
+          ]
         }
       ],
       "related": [
-        "samarith",
+        "evento-ev-031",
+        "calven-iii",
+        "torre-sagrada",
         "grande-pombo",
+        "evento-ev-037",
+        "quinder",
+        "samarith",
         "religiao-virtude"
       ],
       "image": "v28-hist-registros",
@@ -28025,7 +28491,7 @@
       "eventIds": [
         "EV-037"
       ],
-      "summary": "Nerissa venceu e consolidou Quinder como monarquia independente, preservando o Acordo das Lâmpadas.",
+      "summary": "A Guerra das Duas Cortes (61–74 da III Era) opôs o governo de Nerissa Sareth, em Quinder, à corte de Naerath. A disputa pela arrecadação e pela confirmação do governo local tornou-se uma guerra por postos, depósitos e caminhos. A vitória de Nerissa consolidou a independência de Quinder e preservou o Acordo das Lâmpadas.",
       "facts": {
         "Data": "61-74 da III Era",
         "Era": "III Era",
@@ -28041,8 +28507,8 @@
       "paragraphs": [],
       "sections": [
         {
-          "title": "A receita e o governo",
-          "text": "A ligação estabelecida pela conquista transferia parte substancial da receita de Quinder à corte de Naerath. Nerissa Sareth recusou continuar a remessa nos termos exigidos. A disputa fiscal envolvia quem pagaria guarnições, obras e casas credoras. Para seus apoiadores, conservar recursos na região era também obter influência sobre sua aplicação.",
+          "title": "Por que a remessa de receitas levou à guerra",
+          "text": "Desde a conquista de 2428 da II Era, parte substancial da arrecadação de Quinder seguia para Naerath. Nerissa Sareth recusou continuar a remessa nas condições exigidas. A decisão pôs em disputa quem confirmaria o governo local e quem controlaria os recursos para pagar guarnições, obras e credores.",
           "sourceRef": {
             "source": "RG213",
             "chapter": 52,
@@ -28068,8 +28534,8 @@
           }
         },
         {
-          "title": "Independência e reparação incompleta",
-          "text": "A vitória de 74 assegurou uma monarquia própria e preservou o Acordo das Lâmpadas. Não resolveu todas as reivindicações de famílias humanas expulsas durante a conquista. Algumas retornaram, outras conservaram a memória da perda fora de Quinder. A autonomia do reino não deve ser confundida com uma reconciliação patrimonial completa nem com a ruptura de toda relação comercial com Naerath.",
+          "title": "A independência e as questões deixadas em aberto",
+          "text": "A vitória de 74 consolidou a monarquia de Quinder e manteve as garantias religiosas do Acordo das Lâmpadas. Algumas famílias expulsas na conquista voltaram. Outras continuaram fora do reino, e a mudança de governo deixou reivindicações de restituição em aberto.",
           "sourceRef": {
             "source": "RG213",
             "chapter": 52,
@@ -28119,15 +28585,26 @@
             "chapter": 93,
             "record": "RC-REL04"
           }
+        },
+        {
+          "title": "Quinder no início de 788",
+          "text": "A independência definiu a autoridade civil do reino. A Torre continuou responsável pelo culto e pelos arquivos da comunhão dos Sete em Samarith.",
+          "readingLinks": [
+            "quinder",
+            "samarith",
+            "grande-pombo"
+          ]
         }
       ],
       "related": [
         "quinder",
+        "naerath",
+        "evento-ev-031",
+        "evento-ev-032",
+        "grande-pombo",
         "nerissa-sareth",
         "vaeliss-sareth",
-        "naerath",
         "vaeressa-sareth",
-        "evento-ev-031",
         "calven-iii",
         "guerras-conflitos",
         "samarith",
@@ -28136,9 +28613,7 @@
         "nobilith",
         "geografia-guerras",
         "provincia-quinder",
-        "evento-ev-032",
         "selyra",
-        "grande-pombo",
         "religiao-virtude"
       ],
       "image": "imperial-nerissa-sareth",
@@ -30831,7 +31306,7 @@
       "eventIds": [
         "EV-074"
       ],
-      "summary": "Meren Voss apresou o cargueiro; parte da carga foi recuperada depois, e o caso abriu disputa sobre seguros duplicados.",
+      "summary": "O Apresamento das Três Bandeiras foi um incidente de pirataria ocorrido em 778 da III Era. Cargas, documentos e pessoas foram tomados para obter resgates. A restituição posterior recuperou apenas parte do que havia sido apreendido.",
       "facts": {
         "Data": "778 da III Era",
         "Era": "III Era",
@@ -32751,7 +33226,7 @@
       "eventIds": [
         "EV-097"
       ],
-      "summary": "As forças rivais coordenaram uma operação; Marevim morreu na Câmara no dia 23. A vitória encerrou sua ofensiva imediata, sem eliminar as disputas entre reinos.",
+      "summary": "A Batalha de Samarith, travada entre os dias 18 e 23 do nono mês de 788 da III Era, envolveu a disputa pelo acesso à Câmara do Limiar e pela autoridade sobre seu entorno. Os adversários de Marevim coordenaram suas ações tardiamente e acabaram por derrotá-lo.",
       "facts": {
         "Data": "18-23 do nono mês de 788",
         "Era": "III Era",
@@ -33895,7 +34370,7 @@
       "eventIds": [
         "EV-109"
       ],
-      "summary": "Tropas ocuparam campos, mas a repressão rompeu a colaboração de Rughan com a corte e enfraqueceu a legitimidade dos acordos comunitários.",
+      "summary": "A Repressão de Bar-Terval foi uma operação imperial de 1904 da II Era para assegurar o trânsito de comboios. A imposição de responsabilidade coletiva e a tomada de reféns permitiram a ocupação local, mas provocaram a ruptura política de Rughan.",
       "facts": {
         "Data": "1904 da II Era",
         "Era": "II Era",
@@ -35174,7 +35649,7 @@
       "eventIds": [
         "EV-125"
       ],
-      "summary": "O Pacto dos Postos de 2388 limitou ocupações e repartiu obrigações de passagem; o império reteve alguns postos sem pacificar a região ou recompor as contas.",
+      "summary": "A Guerra dos Postos do Norte (2376–2388 da II Era) foi uma disputa por receitas de passagem, garantias de guarnição e autoridade imperial. A trégua encerrou a campanha com o controle da região ainda dividido.",
       "facts": {
         "Data": "2376–2388 da II Era",
         "Era": "II Era",
@@ -37571,7 +38046,7 @@
       "eventIds": [
         "EV-156"
       ],
-      "summary": "A repressão retomou o serviço; em 2339 a arbitragem reconheceu parte dos salários, mas autorizou descontos e manteve exclusões profissionais.",
+      "summary": "A Revolta de Sarn começou em 2337 da II Era, quando atrasos de salário e descontos sobre alimentos levaram trabalhadores a paralisar a descarga. A paralisação foi reprimida. A arbitragem de 2339 concedeu reparação parcial.",
       "facts": {
         "Data": "2337 da II Era",
         "Era": "II Era",
@@ -38335,7 +38810,7 @@
       "eventIds": [
         "EV-164"
       ],
-      "summary": "O bloqueio foi parcialmente rompido por passagens negociadas; o cerco terminou sem decidir a sucessão.",
+      "summary": "O Cerco das Casas de Grão, em 2420 da II Era, foi uma tentativa de controlar o abastecimento de Vaelen Endor durante a guerra sucessória. O bloqueio atingiu os bairros que dependiam dos depósitos. A reabertura de uma passagem aliviou parte da escassez e a disputa pelo governo prosseguiu.",
       "facts": {
         "Data": "2420 da II Era",
         "Era": "II Era",
@@ -38574,7 +39049,7 @@
       "eventIds": [
         "EV-165"
       ],
-      "summary": "Aldren tomou acessos e depósitos, mas não consolidou o domínio da capital; dependentes de Rovan sofreram represálias e perda de direitos.",
+      "summary": "O Conflito da Porta de Cal, em 2421 da II Era, foi uma disputa pelo acesso aos depósitos da capital durante a sucessão de Vaelen Endor. A abertura da porta deu a Aldren Veyr uma vantagem local. A autoridade sobre a cidade continuou em disputa.",
       "facts": {
         "Data": "2421 da II Era",
         "Era": "II Era",
@@ -39288,7 +39763,7 @@
       "name": "Torre Sagrada de Samarith",
       "category": "Lugares",
       "placeType": "Torre / santuário",
-      "summary": "Sede religiosa do Grande Pombo em Samarith, erguida sobre galerias de origem Eldenari.",
+      "summary": "A Torre Sagrada de Samarith é a sede do Grande Pombo e da comunhão dos Sete em Quinder. Erguida sobre galerias Eldenari, tornou-se um centro de culto, arquivo e peregrinação. Sua permanência foi negociada após a conquista de 2428 da II Era.",
       "paragraphs": [
         "Os Eldenari construíram as primeiras galerias da futura Torre Sagrada em Samarith. Sob a torre fica a Câmara do Limiar, originalmente destinada a acompanhar os Descompassos e a passagem das consciências.",
         "A Torre do Grande Pombo é uma referência religiosa e urbana de Samarith. O Concílio das Sete Portas, em 1398 da II Era, estabeleceu a comunhão dos Sete. O Acordo das Lâmpadas, em 2429 da II Era, preservou o Grande Pombo, arquivos, santuários e peregrinação sob a soberania de Quinder.",
@@ -39327,6 +39802,14 @@
             "chapter": 93,
             "record": "RC-REL04"
           }
+        },
+        {
+          "title": "A autoridade da Torre",
+          "text": "As competências religiosas da Torre, o acesso de peregrinos e a convivência com a autoridade civil foram definidos pelo acordo firmado em 2429.",
+          "readingLinks": [
+            "evento-ev-032",
+            "grande-pombo"
+          ]
         }
       ],
       "facts": {
@@ -39337,13 +39820,15 @@
         "Referência temporal": "Início de 788 da III Era"
       },
       "related": [
+        "evento-ev-021",
+        "evento-ev-032",
         "samarith",
+        "grande-pombo",
         "quinder",
         "camara-limiar",
         "casa-nomes",
         "calven",
         "pombo-torto",
-        "grande-pombo",
         "religiao-virtude"
       ],
       "image": "v29-torre-sagrada",
@@ -40595,7 +41080,7 @@
       "id": "adunevar",
       "name": "Adunevar",
       "category": "Cosmologia",
-      "summary": "Consciências de Noérion associadas a afinidades fundamentais e reconhecidas de maneiras distintas pelos cultos.",
+      "summary": "Os Adunevar são consciências de Noérion associadas a afinidades fundamentais. Os cultos os reconhecem de modos diferentes. Em Virtude, a manifestação de uma presença depende da afinidade e das condições da âncora que a sustenta.",
       "sections": [
         {
           "title": "Natureza e domínio",
@@ -40668,7 +41153,7 @@
       "id": "mana",
       "name": "Mana",
       "category": "Cosmologia",
-      "summary": "Fluxo entre os três planos, trabalhado pelas práticas mágicas por meio de seis caminhos.",
+      "summary": "A mana é o fluxo entre Noérion, Eomundus e Virtude. Os seis caminhos descrevem maneiras de trabalhar esse fluxo. Na prática, o efeito depende da técnica, do meio e das condições em que o contato se sustenta.",
       "sections": [
         {
           "title": "Circulação entre planos",
@@ -40726,6 +41211,16 @@
             "source": "RG230",
             "chapter": 96
           }
+        },
+        {
+          "title": "Do fluxo ao efeito observado",
+          "text": "Um sinal de Luz pode ajudar a observar ou transmitir. Um praticante de um culto pode empregar essa técnica em um rito, enquanto uma oficina a usa para outro fim. O efeito observado permite avaliar a operação. Atribuir sua origem a uma presença divina exige outras evidências.",
+          "readingLinks": [
+            "magia",
+            "planos",
+            "religiao-virtude",
+            "doutrina-sinais-cruzados"
+          ]
         }
       ],
       "paragraphs": [],
@@ -40744,7 +41239,8 @@
         "travessias-espaco",
         "oleakes",
         "religiao-virtude",
-        "grande-pombo"
+        "grande-pombo",
+        "doutrina-sinais-cruzados"
       ],
       "image": "v31-mana-origens",
       "aliases": [],
@@ -40767,7 +41263,7 @@
       "id": "descompassos",
       "name": "Descompassos",
       "category": "Cosmologia",
-      "summary": "Irregularidades no contato entre os planos que alteram experiência, passagem e sucessão dos acontecimentos.",
+      "summary": "Descompassos são irregularidades no contato entre os planos. Podem afetar a percepção, a sucessão dos acontecimentos ou as condições de passagem. A investigação procura identificar o que mudou e em que circunstâncias o efeito se repete.",
       "sections": [
         {
           "title": "Sinais de uma fronteira irregular",
@@ -41990,7 +42486,7 @@
       "id": "dragoes",
       "name": "Dragões",
       "category": "Povos",
-      "summary": "Primeiros habitantes corpóreos duradouros lembrados pelas tradições de Virtude, de grande longevidade e vínculos profundos com a mana.",
+      "summary": "Os dragões figuram nas tradições de Virtude entre seus primeiros habitantes corpóreos duradouros. Sua longevidade atravessa gerações de outros povos. Na I Era, suas tradições divergiram sobre como usar a mana e que obrigações assumir diante das cidades.",
       "sections": [
         {
           "title": "Origem e duração",
@@ -42147,7 +42643,7 @@
       "id": "eldenari",
       "name": "Eldenari",
       "category": "Povos",
-      "summary": "Povo de vidas seculares, associado às primeiras cidades dos vales do Taoju e do Asmarith e às grandes instituições de pesquisa da I Era.",
+      "summary": "Os Eldenari foram um povo de vidas seculares que formou cidades nos vales do Taoju e do Asmarith na I Era. Observatórios, arquivos e calendários serviam ao trabalho cotidiano e à administração. Os vestígios dessas instituições ainda integram cidades como Xeo Taoju e Samarith.",
       "sections": [
         {
           "title": "Cidades e gerações",
@@ -42468,7 +42964,7 @@
       "id": "aelthir",
       "name": "Aelthir e a chegada dos elfos altos",
       "category": "Povos",
-      "summary": "Comunidades de Eomundus de pele clara e cabelos loiros, com a anatomia dos elfos altos e uma presença astral e etérea; sua Travessia deu origem à condição material desse povo.",
+      "summary": "Os Aelthir são comunidades de Eomundus cujas práticas de moradia, memória e responsabilidade dependem de vínculos reconhecidos. A Travessia das Sete Portas levou parte dessas famílias a assumir uma condição material em Virtude.",
       "sections": [
         {
           "title": "Aparência e presença",
@@ -44539,7 +45035,7 @@
       "id": "casa-medidas",
       "name": "Casa das Medidas",
       "category": "Organizações",
-      "summary": "Associação Eldenari de agrimensores, astrônomos e representantes urbanos, envolvida em calendários, água e cobrança.",
+      "summary": "A Casa das Medidas reunia agrimensores, astrônomos e representantes urbanos Eldenari. Suas medições orientavam calendários, obras de água e cobranças, dando à instituição influência sobre o plantio e os tributos.",
       "sections": [
         {
           "title": "Formação e práticas",
@@ -44761,7 +45257,7 @@
       "id": "mesa-portas",
       "name": "Mesa das Portas",
       "category": "Organizações",
-      "summary": "Instância da primeira Ordem dos Magos que examinava trabalhos e podia suspender intervenções.",
+      "summary": "A Mesa das Portas foi a instância de revisão da primeira Ordem dos Magos em Aethravel. Podia exigir registros e suspender trabalhos. O conflito do Selo do Tempo expôs as dificuldades de aplicar essas decisões a comunidades que dependiam dos experimentos.",
       "sections": [
         {
           "title": "Formação e práticas",
@@ -44905,7 +45401,7 @@
       "id": "selo-tempo",
       "name": "Selo do Tempo",
       "category": "Cosmologia",
-      "summary": "Sistema Eldenari de três instrumentos e uma rede instalada para compatibilizar fluxos temporais presentes.",
+      "summary": "O Selo do Tempo foi um sistema Eldenari criado para compatibilizar fluxos temporais presentes. Três instrumentos coordenavam medições, condições de operação e distribuição de mana. Ativado por volta de 6384 da I Era, reduziu os Descompassos enquanto deslocava experiências incompatíveis para a Margem.",
       "sections": [
         {
           "title": "Construção e autorização",
@@ -44942,6 +45438,17 @@
             "chapter": 38,
             "record": "RC-IE29"
           }
+        },
+        {
+          "title": "Como os três instrumentos trabalhavam juntos",
+          "text": "O Relógio comparava ritmos, o Pergaminho guardava as condições de operação e a Gema distribuía mana pela rede. A estabilidade observada em Virtude conviveu com efeitos acumulados na Margem. A dificuldade de inspecionar e reduzir a operação ajuda a entender por que o Selo se tornou objeto de disputa nas Nove Vigílias.",
+          "readingLinks": [
+            "relogio-avar",
+            "pergaminho-concordancias",
+            "gema-eshara",
+            "margem",
+            "guerra-nove-vigilias"
+          ]
         }
       ],
       "paragraphs": [],
@@ -44989,7 +45496,7 @@
       "id": "relogio-avar",
       "name": "Relógio de Avar",
       "category": "Cosmologia",
-      "summary": "Instrumento que compara ritmos e delimita intervalos dentro do Selo.",
+      "summary": "O Relógio de Avar comparava ritmos e delimitava intervalos de operação do Selo do Tempo. Suas medidas serviam à rede de instrumentos que procurava compatibilizar fluxos temporais presentes.",
       "sections": [
         {
           "title": "Função no conjunto",
@@ -45059,7 +45566,7 @@
       "id": "pergaminho-concordancias",
       "name": "Pergaminho das Concordâncias",
       "category": "Cosmologia",
-      "summary": "Registro reativo à mana das condições de operação e interrupção do Selo.",
+      "summary": "O Pergaminho das Concordâncias era um registro reativo à mana usado no Selo do Tempo. Guardava as condições de funcionamento e interrupção, permitindo conferir em que circunstâncias a operação deveria prosseguir.",
       "sections": [
         {
           "title": "Função no conjunto",
@@ -45129,7 +45636,7 @@
       "id": "gema-eshara",
       "name": "Gema de Eshara",
       "category": "Cosmologia",
-      "summary": "Instrumento preparado por Eshara Vel para vincular o Selo à rede material e distribuir mana.",
+      "summary": "A Gema de Eshara ligava os procedimentos do Selo do Tempo à rede material e distribuía mana pelas instalações. Preparada por Eshara Vel, integrava um sistema que dependia de instrumentos complementares e de uma infraestrutura instalada.",
       "sections": [
         {
           "title": "Função no conjunto",
@@ -45429,7 +45936,7 @@
       "id": "inconcluso",
       "name": "O Inconcluso",
       "category": "Mistérios",
-      "summary": "Nome dado às respostas adaptativas identificadas na Margem durante a crise do Selo.",
+      "summary": "O Inconcluso é o nome dado às respostas adaptativas observadas na Margem durante a crise do Selo do Tempo. Os registros descrevem como essas respostas mudavam diante das intervenções. Sua origem permanece em disputa.",
       "sections": [
         {
           "title": "Uma resposta que persiste",
@@ -46003,7 +46510,7 @@
       "id": "guerra-reparos",
       "name": "Guerra dos Reparos",
       "category": "História",
-      "summary": "A arbitragem de 6266 encerrou as campanhas e abriu inspeções compartilhadas; a fabricação de peças permaneceu desigual.",
+      "summary": "A Guerra dos Reparos (6262–6266 da I Era) foi uma disputa pelo controle de contratos de manutenção, pela irrigação e pela circulação de artífices. A arbitragem encerrou o conflito.",
       "sections": [
         {
           "title": "A manutenção como poder",
@@ -46435,7 +46942,7 @@
       "id": "pontes-asmarith",
       "name": "Batalha das Pontes de Asmarith",
       "category": "História",
-      "summary": "A coalizão conservou as pontes principais, mas parte dos defensores do Selo escapou; a recusa de Serath em abrir comportas evitou uma inundação deliberada.",
+      "summary": "A Batalha das Pontes de Asmarith, por volta de 6394 da I Era, ocorreu na segunda campanha da Guerra das Nove Vigílias. O controle da travessia afetava tanto o abastecimento militar quanto a irrigação dos campos habitados. A coalizão obteve uma vitória tática limitada.",
       "sections": [
         {
           "title": "A posição disputada",
@@ -46683,7 +47190,7 @@
       "id": "cinzas-uldar",
       "name": "Cinzas de Uldar",
       "category": "História",
-      "summary": "Uldar foi destruída; Zhaurak obteve a posição, mas perdeu o apoio de Khorvath e de sacerdotes ligados a Saelith Vora.",
+      "summary": "Cinzas de Uldar é o nome dado à destruição da cidade neutra de Uldar por volta de 6397 da I Era, durante a quinta campanha da Guerra das Nove Vigílias. A pressão de Zhaurak sobre serviços e abastecimento que atravessavam as linhas de combate levou à ruptura entre aliados.",
       "sections": [
         {
           "title": "A neutralidade e seus interesses",
@@ -47017,7 +47524,7 @@
       "id": "guerra-nove-vigilias",
       "name": "Guerra das Nove Vigílias",
       "category": "História",
-      "summary": "As coalizões se fragmentaram; o desligamento negociado falhou durante o cerco final e o Selo rompeu-se. A Grande Punição pertence a uma sequência posterior.",
+      "summary": "A Guerra das Nove Vigílias (c. 6393–6399 da I Era) reuniu sete campanhas em torno do Selo do Tempo e da autoridade para impor seu uso às comunidades. A disputa terminou com a ruptura do Selo e sem um vencedor duradouro.",
       "sections": [
         {
           "title": "O motivo da guerra",
@@ -47512,7 +48019,7 @@
       "id": "doutrina-sinais-cruzados",
       "name": "Doutrina dos Sinais Cruzados",
       "category": "Cosmologia",
-      "summary": "Práticas de confronto de testemunhos destinadas a dificultar fraudes no reconhecimento de Arautos.",
+      "summary": "A Doutrina dos Sinais Cruzados reúne práticas de confronto de testemunhos no reconhecimento de Arautos. Seu propósito é tornar o reconhecimento verificável por mais de uma via e dificultar fraudes.",
       "sections": [
         {
           "title": "Testemunhos e biografia",
@@ -48355,7 +48862,7 @@
       "id": "humanos",
       "name": "Humanos",
       "category": "Povos",
-      "summary": "Os Tairim dos vales orientais e meridionais constituem a principal ancestralidade das populações humanas atuais.",
+      "summary": "A principal ancestralidade das populações humanas de Virtude vem dos Tairim dos vales orientais e meridionais. Depois da destruição das cidades Eldenari, suas comunidades receberam sobreviventes e ocuparam novas áreas. A reconstrução deu importância à organização de estoques e ao acesso à terra.",
       "sections": [
         {
           "title": "Dos Eldenari aos Tairim",
@@ -48469,7 +48976,7 @@
       "id": "elfos-altos",
       "name": "Elfos altos",
       "category": "Povos",
-      "summary": "Os elfos altos descendem dos Aelthir que aceitaram a condição material durante a Travessia das Sete Portas, por volta de 5990 da I Era.",
+      "summary": "Os elfos altos descendem dos Aelthir que assumiram a condição material na Travessia das Sete Portas, por volta de 5990 da I Era. Seus assentamentos seguiram trajetórias próprias. Emvale e Aston se desenvolveram no norte, e outras comunidades participaram da formação de Iltharion no leste.",
       "sections": [
         {
           "title": "A Travessia",
@@ -48595,7 +49102,7 @@
       "id": "elfos-floresta",
       "name": "Elfos da floresta",
       "category": "Povos",
-      "summary": "Os ancestrais Aelthir deste povo atravessaram passagens meridionais antes da Grande Punição, fora da rede conduzida por Arieth.",
+      "summary": "Os elfos da floresta descendem de Aelthir que atravessaram passagens meridionais e das comunidades que os acolheram. Em Thaelorien, os pactos de manejo dos bosques guardam a memória de conflitos entre a necessidade de alimento e a recuperação da floresta.",
       "sections": [
         {
           "title": "Passagens meridionais",
@@ -48723,7 +49230,7 @@
       "id": "elfos-negros",
       "name": "Elfos negros",
       "category": "Povos",
-      "summary": "Os ancestrais deste povo eram Aelthir ligados às cavernas crepusculares de Eomundus.",
+      "summary": "Os elfos negros descendem de comunidades aelthir ligadas às cavernas crepusculares de Eomundus. Sua chegada a Virtude ocorreu nas rupturas entre a I e a II Eras. As tradições de exílio e acolhimento assumiram formas próprias em lugares como Naerath e Quinder.",
       "sections": [
         {
           "title": "Os caminhos crepusculares",
@@ -48849,7 +49356,7 @@
       "id": "anoes",
       "name": "Anões",
       "category": "Povos",
-      "summary": "A origem dos anões antecede Dorgamar.",
+      "summary": "Os anões descendem de comunidades que mantiveram galerias e abrigos subterrâneos próximos a fontes geotérmicas. A cooperação para conservar esses lugares antecede Dorgamar. Em Dorgal, os deveres de inspeção e manutenção ainda ligam trabalho, segurança e culto.",
       "sections": [
         {
           "title": "Antes do império",
@@ -48975,7 +49482,7 @@
       "id": "halflings",
       "name": "Halflings",
       "category": "Povos",
-      "summary": "Comunidades de pequena estatura já se distinguiam entre os ramos materiais afastados dos centros Eldenari no fim da I Era.",
+      "summary": "Os halflings descendem de comunidades de pequena estatura que já se distinguiam no fim da I Era. Famílias seguiram para os vales ocidentais, onde pactos de abrigo, manutenção de pontes e proteção de celeiros ajudaram a formar Pellanor.",
       "sections": [
         {
           "title": "A travessia para os vales ocidentais",
@@ -49005,13 +49512,19 @@
           }
         },
         {
-          "title": "A Confederação",
-          "text": "Pellanor fica a oeste de Velkar, além da cordilheira, na região ocidental a sudoeste de Aelvar. Sua Confederação articula comunidades e pousos; uma representação de assembleia não deve sugerir uma capital única que governa todas as vilas. O direito de abrigo envolve manutenção de estradas e partilha de custos. Famílias podem divergir sobre taxas, recebimento de estrangeiros e responsabilidades diante de uma colheita perdida. O gosto pela hospitalidade não elimina conflitos de propriedade.",
+          "title": "Hospitalidade e trabalho nos vales",
+          "text": "Em Pellanor, oferecer pouso e manter uma ponte envolve trabalho continuado e divisão de despesas. Famílias podem discordar sobre taxas ou sobre o que cabe repartir depois de uma colheita perdida. Os pactos tornam possível cooperar nesses assuntos mesmo quando cada vila conserva sua autoridade.",
           "sourceRef": {
             "source": "RG211",
             "chapter": 46,
             "record": "RC-PO07"
-          }
+          },
+          "readingLinks": [
+            "pellanor",
+            "meliva",
+            "tivaro",
+            "merovel"
+          ]
         },
         {
           "title": "Uma história além das hospedarias",
@@ -49097,7 +49610,7 @@
       "id": "nogards",
       "name": "Nogards",
       "category": "Povos",
-      "summary": "Nos primeiros séculos da II Era, guardiões de santuários dracônicos das ilhas meridionais encontraram ovos que já não eclodiam sem auxílio.",
+      "summary": "Os nogards são um povo de ascendência dracônica cuja tradição de origem remonta à Vigília das Escamas, no início da II Era. No império insular de Nogard, a memória dos santuários convive com o trabalho dos cais e as obrigações das casas e frotas.",
       "sections": [
         {
           "title": "A Vigília das Escamas",
@@ -49360,7 +49873,7 @@
       "id": "povos-virtude",
       "name": "Povos e origens de Virtude",
       "category": "Povos",
-      "summary": "Guia para comparar as origens, a aparência, as comunidades e os marcos históricos dos povos de Virtude.",
+      "summary": "Este guia reúne as histórias de origem dos povos de Virtude e mostra como migrações, ofícios e pactos moldaram suas comunidades. Os verbetes seguem os vínculos entre os povos e os lugares onde vivem, da dispersão Eldenari aos acordos em vigor em 788.",
       "sections": [
         {
           "title": "As origens se cruzam",
@@ -49392,6 +49905,16 @@
         {
           "title": "Origem, longevidade e aprendizado",
           "text": "A ancestralidade de um povo registra processos históricos de travessia, adaptação e convivência. Ela pode ajudar a explicar a transmissão de um ofício em certas comunidades. O acesso à mana depende da formação e das condições de prática. Para conferir longevidades, distinguem-se duração documentada de uma vida, expectativa geral e idade atribuída pela tradição. As fichas conservam datas e faixas apenas quando sustentadas pelas fontes."
+        },
+        {
+          "title": "Dois pactos de cooperação",
+          "text": "Nos vales de Pellanor, os acordos de pouso e reserva ajudam a manter vilas ligadas por pontes. Entre comunidades orcs, assembleias negociam direitos de passagem, acesso à água e defesa em meio a disputas territoriais. Os dois casos mostram como a cooperação se organiza a partir de necessidades locais e de compromissos assumidos ao longo do tempo.",
+          "readingLinks": [
+            "pellanor",
+            "confederacao-orc",
+            "halflings",
+            "orcs"
+          ]
         }
       ],
       "paragraphs": [],
@@ -49415,7 +49938,9 @@
         "aelthir",
         "thul",
         "dispersao-eldenari",
-        "magia"
+        "magia",
+        "pellanor",
+        "confederacao-orc"
       ],
       "image": "v36-humanos",
       "imageAlt": "Povos e origens de Virtude — interpretação visual de Virtude",
@@ -49693,7 +50218,7 @@
       "id": "camara-escamas",
       "name": "Câmara das Escamas",
       "category": "Organizações",
-      "summary": "Conselho de casas e comandos de frota que negocia receita, serviço naval e títulos de ancestralidade.",
+      "summary": "A Câmara das Escamas reúne casas reconhecidas e comandos de frota na Corte do Estreito. Negocia receitas de passagem, obrigações de escolta e títulos de ancestralidade. O peso de uma casa acompanha os navios, os recursos e os serviços que pode oferecer.",
       "sections": [
         {
           "title": "Composição e acesso",
@@ -49921,7 +50446,7 @@
       "id": "mesa-lastro",
       "name": "Mesa do Lastro",
       "category": "Organizações",
-      "summary": "Consórcio de armadores e agentes de seguro com negócios nos portos ligados a Nogard.",
+      "summary": "A Mesa do Lastro é um consórcio de armadores e agentes de seguro ligado aos portos de Nogard. Seus negócios dependem das condições de passagem e das garantias sobre cargas e embarcações.",
       "sections": [
         {
           "title": "Origem e funcionamento",
@@ -50797,16 +51322,16 @@
         "Referência temporal": "2418–2431 da II Era"
       },
       "related": [
-        "imperio-vaelen-endor",
         "odravel-iv",
         "maeressa-endorin",
         "aldren-veyr",
         "soren-talv",
+        "concordata-de-vaelen",
+        "evento-ev-031",
+        "imperio-vaelen-endor",
         "evento-ev-163",
         "evento-ev-164",
         "evento-ev-165",
-        "evento-ev-031",
-        "concordata-de-vaelen",
         "guerras-conflitos",
         "vaelen-endor",
         "valerith",
@@ -50827,7 +51352,7 @@
       "hasLocation": false,
       "image": "v38-sucessao",
       "name": "Guerra da Sucessão de Vaelen Endor",
-      "summary": "Nenhum pretendente reunificou o império; a Concordata de 2431 reconheceu os reinos sucessores e encerrou as pretensões efetivas de comando comum.",
+      "summary": "A Guerra da Sucessão de Vaelen Endor (2418–2431 da II Era) começou com a disputa pelo governo após a morte de Odravel IV. Maeressa Endorin, Aldren Veyr e Soren Talv reuniram apoios diferentes, enquanto as províncias passaram a reter receitas. A Concordata de Vaelen encerrou a disputa pelo comando comum.",
       "eraIds": [
         "II"
       ],
@@ -51019,6 +51544,14 @@
             "source": "RG222",
             "chapter": 86
           }
+        },
+        {
+          "title": "A frente de Quinder",
+          "text": "Enquanto os pretendentes disputavam a capital e suas receitas, Naerath avançou sobre Quinder por suas próprias vias de acesso. A perda de coordenação imperial abriu espaço para a campanha, que teve seus próprios comandantes, objetivos e consequências.",
+          "readingLinks": [
+            "evento-ev-031",
+            "concordata-de-vaelen"
+          ]
         }
       ],
       "wideImage": true,
@@ -51086,7 +51619,7 @@
       "hasLocation": false,
       "image": "v38-naval",
       "name": "Crise Naval dos Ancoradouros",
-      "summary": "O acordo provisório de 786 conteve os combates principais, mas não resolveu taxas, acessos ou reivindicações; Oleakia conservou sua autonomia.",
+      "summary": "A Crise Naval dos Ancoradouros começou em 786 da III Era, em meio a disputas sobre taxas, inspeção de cargas e controle de acessos costeiros. Um acordo provisório conteve os combates, e a disputa política seguia aberta no início de 788.",
       "eraIds": [
         "III"
       ],
@@ -53263,7 +53796,7 @@
       "id": "primeiro-conflito",
       "name": "O Primeiro Conflito",
       "category": "História",
-      "summary": "Principal guerra das Guerras da Fome, formada por campanhas e batalhas entre a Liga das Margens e o Pacto dos Altos Caminhos, c. 62–146 da II Era.",
+      "summary": "O Primeiro Conflito (c. 62–146 da II Era) reuniu campanhas que disputaram depósitos, travessias e reservas na reconstrução. Os Acordos dos Celeiros Abertos encerraram as principais operações, deixando a região sob autoridades distintas.",
       "sections": [
         {
           "title": "A tomada das terras centrais",
@@ -53529,7 +54062,7 @@
       "id": "sementeiras-tomadas",
       "name": "Batalha das Sementeiras Tomadas",
       "category": "História",
-      "summary": "A Liga das Margens recupera dois depósitos, mas perde a maior parte das reservas já distribuídas.",
+      "summary": "A Batalha das Sementeiras Tomadas, por volta de 67 da II Era, integrou O Primeiro Conflito. A Liga das Margens recuperou dois depósitos, mas a maior parte das reservas já havia sido distribuída.",
       "sections": [
         {
           "title": "Objetivo e participantes",
@@ -53727,7 +54260,7 @@
       "id": "juncos-partidos",
       "name": "Batalha dos Juncos Partidos",
       "category": "História",
-      "summary": "Vitória tática do Pacto; retirada da Liga preserva suas barcas de reserva.",
+      "summary": "A Batalha dos Juncos Partidos, por volta de 83 da II Era, deu ao Pacto uma vitória tática durante O Primeiro Conflito. A Liga das Margens retirou suas forças e preservou as barcas de reserva.",
       "sections": [
         {
           "title": "Objetivo e participantes",
@@ -53928,7 +54461,7 @@
       "id": "escarpa-cinza",
       "name": "Batalha da Escarpa da Cinza",
       "category": "História",
-      "summary": "O Pacto conserva a passagem; a Liga interrompe o comboio principal.",
+      "summary": "A Batalha da Escarpa da Cinza, por volta de 111 da II Era, foi uma disputa por passagem e abastecimento durante O Primeiro Conflito. O Pacto conservou a passagem, enquanto a Liga das Margens interrompeu o comboio principal.",
       "sections": [
         {
           "title": "Objetivo e participantes",
@@ -54128,7 +54661,7 @@
       "id": "tres-celeiros",
       "name": "Batalha dos Três Celeiros",
       "category": "História",
-      "summary": "Batalha inconclusiva; destruição das reservas acelera a negociação.",
+      "summary": "A Batalha dos Três Celeiros, por volta de 139 da II Era, foi um dos últimos grandes confrontos de O Primeiro Conflito. A destruição das reservas acelerou a negociação entre os lados.",
       "sections": [
         {
           "title": "Objetivo e participantes",
@@ -55421,7 +55954,7 @@
       "id": "campanha-estreitos-nogard",
       "name": "Campanha dos Estreitos de Nogard",
       "category": "História",
-      "summary": "Nogard permaneceu independente.",
+      "summary": "A Campanha dos Estreitos de Nogard (1962–1964 da II Era) foi uma tentativa imperial de impor condições de passagem e serviço nos estreitos. Nogard preservou sua independência, e as escalas comerciais foram retomadas gradualmente após a restituição parcial de cargas.",
       "sections": [
         {
           "title": "Objetivo imperial",
@@ -55625,7 +56158,7 @@
       "id": "campanha-vaus-lethen",
       "name": "Campanha dos Vaus de Lethen",
       "category": "História",
-      "summary": "Expedição naval imperial contra Thaelorien, com desembarque e derrota nos vaus interiores de Lethen, em 1988–1990 da II Era.",
+      "summary": "A Campanha dos Vaus de Lethen (1988–1990 da II Era) levou forças imperiais aos acessos de Thaelorien. A resistência reuniu guardas, casas da floresta e comunidades de cultivo e transporte. O encerramento das operações permitiu reabrir rotas mediante autorização e reparação, preservando a soberania do reino.",
       "sections": [
         {
           "title": "Objetivo imperial",
@@ -55831,7 +56364,7 @@
       "id": "campanha-portas-orvath",
       "name": "Campanha das Portas de Orvath",
       "category": "História",
-      "summary": "Dorgamar permaneceu independente.",
+      "summary": "A Campanha das Portas de Orvath (2026–2028 da II Era) foi uma tentativa imperial de impor condições a Dorgamar por pressão militar. Dorgamar preservou a independência. O Tratado das Águas de Morvek, de 2032, pertence à fase posterior de negociação.",
       "sections": [
         {
           "title": "Objetivo imperial",
@@ -57422,7 +57955,7 @@
       "id": "guardas-celeiros",
       "name": "Guardas e depositários dos celeiros",
       "category": "Organizações",
-      "summary": "Funções locais de conservação, distribuição e defesa que se tornaram bases de autoridade.",
+      "summary": "As guardas de celeiros surgiram em torno do trabalho de conservar, distribuir e defender reservas. Na reconstrução da II Era, a capacidade de manter provisões deu a responsáveis locais autoridade sobre decisões de abastecimento.",
       "sections": [
         {
           "title": "Cargos antes de uma ordem comum",
@@ -57595,7 +58128,7 @@
       "id": "mesas-vizinhanca",
       "name": "Mesas de vizinhança",
       "category": "Organizações",
-      "summary": "Assembleias locais que negociavam água, cultivo, abrigo e reparos, sem formar um governo continental.",
+      "summary": "As Mesas de Vizinhança eram assembleias locais que negociavam acesso à água, cultivo, abrigo e reparos. A cooperação dependia dos compromissos que cada comunidade assumia.",
       "sections": [
         {
           "title": "Quem tinha lugar à mesa",
@@ -57942,7 +58475,7 @@
       "id": "liga-brasas",
       "name": "Liga das Brasas",
       "category": "Organizações",
-      "summary": "Rede de abrigo e auxílio dos primeiros tempos da II Era, anterior aos grandes poderes regionais.",
+      "summary": "A Liga das Brasas foi uma rede de abrigo e auxílio dos primeiros tempos da II Era. Sua atuação pertence à reconstrução que antecedeu a formação dos grandes poderes regionais.",
       "sections": [
         {
           "title": "Uma brasa de outro abrigo",
@@ -58942,7 +59475,7 @@
       "id": "alena-veldan",
       "name": "Alena Veldan",
       "category": "Personagens",
-      "summary": "Guardiã de arquivos e primeira rainha reconhecida de Valerith.",
+      "summary": "Alena Veldan foi reconhecida como rainha de Valerith em 2431 da II Era. Durante a crise imperial, sua responsabilidade sobre arquivos e pagamentos lhe deu apoio entre funcionários e fornecedores. A coroa nasceu de negociações com quem dependia dessas garantias.",
       "sections": [
         {
           "title": "Um arquivo que ainda pagava salários",
@@ -58997,6 +59530,15 @@
             "chapter": 90,
             "record": "RC-CH04"
           }
+        },
+        {
+          "title": "Da custódia à sucessão",
+          "text": "A Casa Veldan passou a governar a partir de compromissos que envolviam acesso aos arquivos, guarda e pagamentos. A continuidade da casa atravessou sucessivas confirmações. As fontes conservam lacunas na sequência entre Alena e os reinados posteriores.",
+          "readingLinks": [
+            "casa-veldan",
+            "concordata-de-vaelen",
+            "valerith"
+          ]
         }
       ],
       "paragraphs": [],
@@ -59012,9 +59554,9 @@
       },
       "related": [
         "casa-veldan",
-        "custodia-central",
-        "valerith",
         "concordata-de-vaelen",
+        "valerith",
+        "custodia-central",
         "casas-reinos-sucessores",
         "provincia-valerith",
         "evento-ev-033"
@@ -59082,7 +59624,7 @@
       "id": "beran-torv",
       "name": "Beran Torv",
       "category": "Personagens",
-      "summary": "Responsável por garantias de cais e primeiro rei reconhecido da Cávia.",
+      "summary": "Beran Torv foi reconhecido como rei da Cávia em 2431 da II Era. Os vínculos de sua casa com a alfândega e a guarda dos cais ajudaram a sustentar a circulação durante a crise imperial. Sua coroação exigiu acordos com interesses do porto e do interior.",
       "sections": [
         {
           "title": "O crédito do porto",
@@ -59137,6 +59679,16 @@
             "chapter": 90,
             "record": "RC-CH04"
           }
+        },
+        {
+          "title": "O governo da Cávia depois do Império",
+          "text": "A trajetória de Beran cruza a atuação da governadora Maela Torr na proteção de remessas. As duas casas são distintas. O reconhecimento da coroa envolveu garantias de trânsito, inspeção e cobrança que ligavam o litoral aos caminhos do minério.",
+          "readingLinks": [
+            "maela-torr",
+            "casa-torv",
+            "cavia",
+            "concordata-de-vaelen"
+          ]
         }
       ],
       "paragraphs": [],
@@ -59151,11 +59703,11 @@
         "Morte": "29 da III Era"
       },
       "related": [
-        "casa-torv",
         "maela-torr",
+        "casa-torv",
         "cavia",
-        "casas-reinos-sucessores",
         "concordata-de-vaelen",
+        "casas-reinos-sucessores",
         "governadores-provinciais",
         "provincia-cavia",
         "evento-ev-033"
@@ -60491,7 +61043,7 @@
       "id": "casa-veldan",
       "name": "Casa Veldan",
       "category": "Organizações",
-      "summary": "Casa régia de Valerith, afirmada na crise final do império pela custódia de arquivos, garantias e reconhecimento urbano.",
+      "summary": "A Casa Veldan é a casa régia de Valerith. Durante a crise sucessória imperial, a custódia de arquivos e as garantias de pagamento deram a Alena Veldan apoio para obter reconhecimento em 2431 da II Era.",
       "sections": [
         {
           "title": "A base de Alena",
@@ -60558,7 +61110,7 @@
       "id": "casa-torv",
       "name": "Casa Torv",
       "category": "Organizações",
-      "summary": "Casa régia da Cávia, formada no encontro de crédito portuário, arrecadação e reconhecimento de direitos do interior.",
+      "summary": "A Casa Torv formou sua autoridade na Cávia por meio de crédito portuário, arrecadação e garantias de acesso entre cais e interior. Beran Torv foi reconhecido como rei na reorganização de 2431 da II Era.",
       "sections": [
         {
           "title": "Garantias de cais",
@@ -62455,7 +63007,7 @@
       "id": "travessias-espaco",
       "name": "Travessias mágicas e seus limites",
       "category": "Cosmologia",
-      "summary": "Passagens, vínculos e preparação na relação entre espaço material e planos de existência.",
+      "summary": "Uma travessia entre planos exige uma passagem capaz de sustentar o deslocamento e, quando previsto, o retorno. Vínculos, preparação e âncoras ajudam a explicar por que um efeito local de mana e a passagem de um corpo exigem condições diferentes.",
       "sections": [
         {
           "title": "Conhecer o destino",
@@ -62630,7 +63182,7 @@
       "id": "cura-e-limites",
       "name": "Cura, permanência e limites",
       "category": "Cosmologia",
-      "summary": "O alcance do tratamento mágico e as diferenças entre estabilizar, recuperar função e restituir uma vida.",
+      "summary": "A cura por magia pode estabilizar uma pessoa ferida e, conforme a técnica e as condições do corpo, favorecer a recuperação de funções. Cada intervenção precisa considerar a lesão, os recursos disponíveis e os cuidados posteriores.",
       "sections": [
         {
           "title": "Um efeito não reúne todos os outros",
@@ -68296,7 +68848,7 @@
     {
       "id": "ardanus",
       "name": "Ardanus",
-      "summary": "Juramentos e responsabilidade. Divindade da comunhão de Samarith.",
+      "summary": "Ardanus é uma das divindades dos Sete, invocada em juramentos e compromissos públicos. Na tradição aelthir, o nome Arathiel acompanha a palavra prestada diante de testemunhas. Em Samarith, a devoção também orienta o serviço paladino.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68403,7 +68955,7 @@
     {
       "id": "nancy",
       "name": "Nancy",
-      "summary": "Abrigo, sementes e reservas. Divindade da comunhão de Samarith.",
+      "summary": "Nancy é uma das divindades dos Sete, ligada ao abrigo e à partilha de reservas. Os oleakes a veneram como Mãe das Tocas. Em Sokeria, a bênção das sementes e a distribuição do pão dão à devoção uma expressão agrária.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68510,7 +69062,7 @@
     {
       "id": "eleanora",
       "name": "Eleanora",
-      "summary": "Vínculos, acolhimento e compromisso. Divindade da comunhão de Samarith.",
+      "summary": "Eleanora é uma das divindades dos Sete, associada aos compromissos que nascem do acolhimento e da vida em comum. Sua sacerdotisa Elen Sar articulou a rede de santuários que se reuniu no Concílio de Samarith.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68615,7 +69167,7 @@
     {
       "id": "viormund",
       "name": "Viormund",
-      "summary": "Culto atestado no Concílio das Sete Portas. Divindade da comunhão de Samarith.",
+      "summary": "Viormund integra a comunhão dos Sete desde o Concílio das Sete Portas, em 1398 da II Era. A lista conciliar atesta sua inclusão. Seu domínio, seus ritos locais e o reconhecimento de possíveis Arautos permanecem em aberto.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68719,7 +69271,7 @@
     {
       "id": "tivaro",
       "name": "Tívaro",
-      "summary": "Devoções de viagem e festas do Circuito. Divindade da comunhão de Samarith.",
+      "summary": "Tívaro é uma das divindades dos Sete, invocada na preparação e na partida de uma viagem. Em Pellanor, é conhecido como Tivim. Na Rácia, sua devoção aparece nas festas de largada do Circuito do Vento Arcano.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68828,7 +69380,7 @@
     {
       "id": "merovel",
       "name": "Merovél",
-      "summary": "Viagem, hospitalidade e amparo de estrada. Divindade da comunhão de Samarith.",
+      "summary": "Merovél é uma das divindades dos Sete, ligado ao amparo de quem está na estrada. Em tradições halflings, é conhecido como Mero. O Direito da Tigela dá uma forma concreta à devoção nas rotas que reconhecem o dever de oferecer uma refeição.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -68935,7 +69487,7 @@
     {
       "id": "nereth",
       "name": "Nereth",
-      "summary": "Descanso, memória e nomes dos mortos. Divindade da comunhão de Samarith.",
+      "summary": "Nereth é uma das divindades dos Sete, associada ao descanso dos mortos e à preservação de seus nomes. Oren Namar é reconhecido como seu Arauto na tradição de Samarith. Entre elfos negros, a devoção também é conhecida pelo nome Naer.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69043,7 +69595,7 @@
     {
       "id": "asterion",
       "name": "Asterion",
-      "summary": "Observação celeste e medida. Tradição religiosa de Virtude.",
+      "summary": "Asterion é o Medidor das Estrelas, ligado à observação celeste dos Eldenari. A tradição de Ilyra associa sua devoção a medidas que podem ser conferidas e corrigidas. A disputa pelo Selo do Tempo expôs os riscos de dar autoridade absoluta a um cálculo.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69148,7 +69700,7 @@
     {
       "id": "azhravyr",
       "name": "Azhravyr",
-      "summary": "Potência e transformação. Tradição religiosa de Virtude.",
+      "summary": "Azhravyr é associado à potência e à transformação na tradição de origem dos dragões. Em Nogard, sua veneração convive com a memória de Varesh e Khorvath e com as reivindicações de serviço e linhagem das casas.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69253,7 +69805,7 @@
     {
       "id": "ithelion",
       "name": "Ithélion",
-      "summary": "Conhecimento e proporção. Tradição religiosa de Virtude.",
+      "summary": "Ithélion é associado ao conhecimento e à proporção. Na narrativa de origem dos dragões, sua ação dá estabilidade às formas. A tradição aelthir aproxima essa afinidade da aprendizagem e da transmissão de medidas entre gerações.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69359,7 +69911,7 @@
     {
       "id": "dorgann",
       "name": "Dorgann",
-      "summary": "Pedra, trabalho e juramentos de galeria. Tradição religiosa de Virtude.",
+      "summary": "Dorgann é venerado em Dorgamar em ritos ligados à pedra, ao trabalho e aos deveres de galeria. Em Dorgal, sua invocação acompanha a obrigação de observar rachaduras, água e suportes e de relatar o risco antes de decidir sobre o trabalho.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69463,7 +70015,7 @@
     {
       "id": "meliva",
       "name": "Meliva",
-      "summary": "Proteção das comunidades halflings. Tradição religiosa de Virtude.",
+      "summary": "Meliva é venerada em Pellanor como protetora da cooperação entre comunidades halflings. Sua devoção guarda a memória dos pactos que ligaram vilas autônomas por pontes, abrigos e reservas.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69569,7 +70121,7 @@
     {
       "id": "thaelira",
       "name": "Thaelira",
-      "summary": "Crescimento, bosques e deveres de conservação. Tradição religiosa de Virtude.",
+      "summary": "Thaelira é venerada por comunidades élficas da floresta em práticas de cultivo e conservação. Em Thaelorien, sua devoção informa pactos que regulam coleta e corte e levam em conta o tempo de recuperação do bosque.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69674,7 +70226,7 @@
     {
       "id": "eilistraee",
       "name": "Eilistraee",
-      "summary": "Amparo a exilados e liberdade dos caminhos noturnos. Tradição religiosa de Virtude.",
+      "summary": "Eilistraee é venerada como amparo a exilados e guia dos caminhos noturnos. Em Naerath e Quinder, seu culto liga a memória do deslocamento a disputas sobre quem pode oferecer abrigo e garantir passagem.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69781,7 +70333,7 @@
     {
       "id": "auvren",
       "name": "Auvren",
-      "summary": "Divindade única na pregação de Eirik Auvrensen. Tradição religiosa de Virtude.",
+      "summary": "Auvren é reconhecido como divindade única pelos seguidores de Eirik Auvrensen, em Bergen. A pregação de Eirik orientou práticas de resistência e ajuda durante o frio. A identidade de Auvren permanece indeterminada nas fontes cosmológicas.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69884,7 +70436,7 @@
     {
       "id": "religiao-virtude",
       "name": "Religião em Virtude",
-      "summary": "Os Sete de Samarith, as tradições regionais e as relações entre devoção, mana e magia nas três eras.",
+      "summary": "A religião em Virtude reúne tradições de culto que se formaram em épocas e comunidades diferentes. Em Samarith, o Concílio das Sete Portas reuniu sete devoções em 1398 da II Era. Em lugares como Pellanor, Dorgamar e Bergen, outras tradições ganharam autoridade por histórias e práticas próprias.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -69982,6 +70534,18 @@
             "source": "RG230",
             "chapter": 96
           }
+        },
+        {
+          "title": "Da crença ao trabalho cotidiano",
+          "text": "Em Oleakia, a devoção a Nancy dá sentido à guarda de reservas em vários abrigos. Em Dorgamar, a invocação a Dorgann torna pública a responsabilidade de quem inspeciona uma galeria. Samarith, por sua vez, reuniu santuários de acolhimento numa comunhão. Os três casos ajudam a entender como uma devoção ganha autoridade por meio das obrigações que seus praticantes assumem.",
+          "readingLinks": [
+            "nancy",
+            "oleakia",
+            "dorgann",
+            "dorgamar",
+            "evento-ev-021",
+            "grande-pombo"
+          ]
         }
       ],
       "paragraphs": [],
@@ -70028,7 +70592,8 @@
         "auvren",
         "orcs",
         "goblins",
-        "nogards"
+        "nogards",
+        "oleakia"
       ],
       "image": "v55-culto-religiao",
       "imageAlt": "Sete oferendas materiais diante das portas de uma câmara conciliar.",
@@ -70301,7 +70866,7 @@
     {
       "id": "grande-pombo",
       "name": "O Grande Pombo de Samarith",
-      "summary": "Sumo sacerdote da comunhão dos Sete, com sede na Torre de Samarith.",
+      "summary": "O Grande Pombo é o sumo sacerdote da comunhão dos Sete. O cargo foi instituído em Samarith em 1398 da II Era e teve sua permanência garantida pelo Acordo das Lâmpadas de 2429. Calven IX ocupa o posto no início de 788 da III Era.",
       "category": "Cosmologia",
       "sections": [
         {
@@ -70357,11 +70922,12 @@
         "Soberania civil": "Quinder"
       },
       "related": [
-        "samarith",
-        "torre-sagrada",
         "evento-ev-021",
+        "evento-ev-031",
         "evento-ev-032",
         "evento-ev-037",
+        "torre-sagrada",
+        "samarith",
         "calven-iii",
         "calven",
         "selyra",
@@ -70512,7 +71078,7 @@
       "cover": "Cronicas_de_Virtude_Livro_de_Regras_v03.webp"
     }
   ],
-  "version": "0.55",
+  "version": "0.62",
   "reference": "Início de 788 da III Era",
   "artDirection": {
     "standard": "Fantasia estilizada",
@@ -70524,7 +71090,7 @@
       "Fidelidade aos sinais físicos, povos e lugares descritos nas fontes"
     ]
   },
-  "edition": "0.55",
+  "edition": "0.62",
   "geographyNote": "O mapa de 788 reflete o conhecimento dos viajantes dos reinos centrais, onde se passa a maior parte das tramas. Poucos viajam a Vardessa e à Confederação Halfling de Pellanor. Por isso, suas cidades, florestas e rotas internas aparecem com pouco detalhe. Jacomb e Iltharion são mais conhecidos por relatos de viajantes e pilotos, mas esse conhecimento ainda carece de registro cartográfico sistemático. As capitais, Cidade de Jacomb e Nerathiel, servem de referência no mapa.",
   "continuity": "2.28",
   "organization": {
